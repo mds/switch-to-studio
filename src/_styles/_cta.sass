@@ -1,0 +1,136 @@
+
+.cta-primary
+  color: $color-white
+  font-weight: 900
+  display: block
+  margin-right: 10px
+  text-align: center
+  text-decoration: none
+  position: relative
+  background: transparent
+  padding: 1rem 2rem
+  +easeall
+
+  &:before
+    content: " "
+    width: 10px
+    height: 10px
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    top: 0
+    left: 0
+    padding: 0
+    transform: translate(-10px, -10px)
+    +easeall
+
+  &:after
+    content: " "
+    width: 100%
+    height: 100%
+    background: rgba($color-primary, .5)
+    display: block
+    position: absolute
+    z-index: -10
+    bottom: 0
+    right: 0
+    transform: translate(0, 0)
+    +easeall
+
+  &:hover
+    text-indent: 2rem
+    // transform: translateY(10px)
+    +easeall
+    &:before
+      transform: translate(0, 0)
+      width: 100%
+      height: 100%
+      +easeall
+    &:after
+      width: 10px
+      height: 10px
+      transform: translate(10px, 10px)
+      +easeall
+
+.cta-video
+  color: $color-white
+  font-weight: 900
+  display: block
+  width: 9.375rem
+  height: 8.125rem
+  margin-right: 10px
+  text-align: center
+  text-decoration: none
+  position: relative
+  background: transparent
+  // background: rgba($color-primary, .2)
+  // box-shadow: inset 0 0 0 1px rgba($color-primary, .25)
+  padding: 1rem 2rem
+  z-index: 100
+  +easeall
+
+  .arrow-right
+    width: 0
+    height: 0
+    border-top: 20px solid transparent
+    border-bottom: 20px solid transparent
+    border-left: 30px solid black
+    position: absolute
+    left: 40%
+    top: 32%
+    +easeall
+
+    &.arrow-two
+      transform: translate(-6rem, -3rem)
+      opacity: 0
+
+  span
+    opacity: 0
+
+  &:before
+    content: " "
+    width: 10px
+    height: 10px
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    top: 0
+    left: 0
+    padding: 0
+    transform: translate(-10px, -10px)
+    +easeall
+
+  &:after
+    content: " "
+    width: 100%
+    height: 100%
+    background: $color-primary//rgba($color-primary, .5)
+    display: block
+    position: absolute
+    z-index: -10
+    bottom: 0
+    right: 0
+    transform: translate(0, 0)
+    +easeall
+
+  &:hover
+    .arrow-one
+      transform: translate(6rem, 3rem)
+      opacity: 0
+      +easeall
+    .arrow-two
+      transform: translate(0, 0)
+      opacity: 1
+    &:before
+      transform: translate(0, 0)
+      width: 100%
+      height: 100%
+      +easeall
+    &:after
+      width: 10px
+      height: 10px
+      transform: translate(10px, 10px)
+      +easeall
+

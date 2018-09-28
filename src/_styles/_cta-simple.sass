@@ -1,0 +1,46 @@
+
+.cta-primary
+  color: $color-white
+  font-weight: 900
+  display: block
+  margin-right: 10px
+  text-align: center
+  text-decoration: none
+  width: 100%
+  position: relative
+  background: $color-primary
+  padding: 1rem 2rem
+
+  &:before
+    content: " "
+    width: 10px
+    height: 10px
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    top: 0
+    left: 0
+    transform: translate(-10px, -10px)
+    +easespeed(.1s)
+
+  &:after
+    content: " "
+    width: 10px
+    height: 10px
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    bottom: 0
+    right: 0
+    transform: translate(0, 0)
+    +easespeed(.1s)
+
+  &:hover
+    &:before
+      transform: translate(0, 0)
+      +easespeed(.1s)
+    &:after
+      transform: translate(10px, 10px)
+      +easespeed(.1s)

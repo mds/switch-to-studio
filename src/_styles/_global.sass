@@ -1,0 +1,51 @@
+html
+  box-sizing: border-box
+  background: $color-black
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  font-size: 16px
+  line-height: 1.75em
+  color: $color-small-grey-text
+  +sans
+
+::-moz-selection
+  background: $color-black
+  color: $color-primary
+
+::selection
+  background: $color-black
+  color: $color-primary
+
+img
+  width: 100%
+
+a
+  -webkit-tap-highlight-color: rgba(0,0,0,0)
+
+h1
+  font-size: 5rem
+  color: $color-big-text-dark
+  line-height: .8em
+  font-weight: 300
+  letter-spacing: -.3rem
+  text-transform: uppercase
+  span
+    color: $color-white
+    em
+      color: $color-primary
+
+  +large
+    font-size: 6.875rem
+
+p
+  font-weight: 400
+
+.display-none
+  display: none !important
+
+.display-block
+  display: block !important
+

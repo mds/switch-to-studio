@@ -1,0 +1,57 @@
+//- layout.pug
+html
+  head
+    block head
+      title Switch to Studio
+
+    block meta
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+      meta(name="description" content="Prototype")
+      meta(name="HandheldFriendly" content="True")
+      meta(name="MobileOptimized" content="320")
+      meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no")
+
+      meta(name='description', content="Switch to Studio by MDS")
+
+      //- Schema.org markup for Google+
+      meta(itemprop='name', content='Switch to Studio')
+      meta(itemprop='description', content="Switch to Studio by MDS")
+      meta(itemprop='image', content='https://mds-assets.s3.amazonaws.com/invision/switchtostudio.jpg')
+
+      //- Twitter Card data
+      meta(name='twitter:card', content='summary_large_image')
+      meta(name='twitter:site', content='@mds')
+      meta(name='twitter:title', content='Switch to Studio')
+      meta(name='twitter:description', content="Switch to Studio by MDS")
+      meta(name='twitter:creator', content='@mds')
+
+      //- Twitter summary card with large image must be at least 280x150px
+      meta(name='twitter:image:src', content='https://mds-assets.s3.amazonaws.com/invision/switchtostudio.jpg')
+
+      //- Open Graph data
+      meta(property='og:title', content='Switch to Studio')
+      meta(property='og:type', content='article')
+      meta(property='og:url', content='http://switchtostudio.com')
+      meta(property='og:image', content='https://mds-assets.s3.amazonaws.com/invision/switchtostudio.jpg')
+      meta(property='og:description', content="Switch to Studio by MDS")
+      meta(property='og:site_name', content='Switch to Studio')
+
+    block stylesandscripts
+      link(rel="stylesheet" type="text/css" href="_styles/style.css")
+      link(id="favicon" rel="shortcut icon" type="image/png" href="_assets/img/favicon.png")
+
+      //- GoSquared (needs updated tracking # this one is from streamline)
+      //- script.
+      //-   !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+      //-   arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+      //-   d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+      //-   insertBefore(d,q)}(window,document,'script','_gs');
+      //-   _gs('GSN-001161-N');
+
+  body
+
+    block content
+    //- block foot
+    //-   include foot.pug
+

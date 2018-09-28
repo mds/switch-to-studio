@@ -1,0 +1,115 @@
+
+.cta-primary
+  color: $color-white
+  font-weight: 900
+  display: block
+  margin-right: 10px
+  text-align: center
+  text-decoration: none
+  position: relative
+  padding: 2rem 0
+
+  span.top
+    content: " "
+    width: 10px
+    height: 10px
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    top: 0
+    left: 0
+    padding: 0
+    transform: translate(-10px, -10px)
+    +easeall
+
+    em
+      opacity: 0
+      +easeall
+
+  span.bottom
+    content: " "
+    width: 100%
+    height: 100%
+    background: $color-primary
+    display: block
+    position: absolute
+    z-index: -10
+    bottom: 0
+    right: 0
+    padding: 1.1rem
+    +easeall
+
+    em
+      opacity: 1
+      +easeall
+
+  &:hover
+    span.top
+      width: 100%
+      height: 100%
+      transform: translate(0, 0)
+      padding: 1.1rem
+      +easeall
+
+      em
+        opacity: 1
+        +easeall
+
+    span.bottom
+      content: " "
+      width: 10px
+      height: 10px
+      transform: translate(10px, 10px)
+      padding: 0
+      +easeall
+
+      em
+        opacity: 0
+        +easeall
+
+
+
+
+
+  // &:before
+  //   content: " "
+  //   width: 10px
+  //   height: 10px
+  //   background: $color-primary
+  //   display: block
+  //   position: absolute
+  //   z-index: -10
+  //   top: 0
+  //   left: 0
+  //   transform: translate(-10px, -10px)
+  //   +easeall
+
+  // &:after
+  //   content: " "
+  //   width: 100%
+  //   height: 100%
+  //   background: $color-primary
+  //   display: block
+  //   position: absolute
+  //   z-index: -10
+  //   bottom: 0
+  //   right: 0
+  //   +easeall
+
+  // &:hover
+  //   &:before
+  //     width: 100%
+  //     height: 100%
+  //     transform: translate(0, 0)
+  //     +easeall
+
+  //   &:after
+  //     content: " "
+  //     width: 10px
+  //     height: 10px
+  //     transform: translate(10px, 10px)
+  //     +easeall
+
+
+

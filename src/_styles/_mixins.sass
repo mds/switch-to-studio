@@ -1,0 +1,43 @@
+$xsmall-width: 420px
+$small-width: 820px
+$medium-width: 1180px
+$large-width: 1300px//1439px
+$xlarge-width: 1600px
+
+=xsmall
+  @media (min-width: #{$xsmall-width})
+    @content
+
+=small
+  @media (min-width: #{$small-width})
+    @content
+
+=medium
+  @media (min-width: #{$medium-width})
+    @content
+
+=large
+  @media (min-width: #{$large-width})
+    @content
+
+=xlarge
+  @media (min-width: #{$xlarge-width})
+    @content
+
+=easeall
+  transition: all .2s ease-out
+
+=easespeed($speed)
+  transition: all $speed ease-out
+
+=sans
+  font-family: 'Mikro', -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif
+
+=center
+  top: 50%
+  left: 50%
+  transform: translateY(-50%) translateX(-50%)
+
+=outline
+  border: 1px solid red
+

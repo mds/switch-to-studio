@@ -1,0 +1,77 @@
+main
+  max-width: 84rem
+  margin: auto
+  position: relative
+  left: 0
+  right: 0
+
+  +xlarge
+    max-width: 100rem
+
+// core layout
+.grid-two
+  display: grid
+  grid-template-columns: 2fr 1fr
+  grid-column-gap: 10px
+
+.grid-three
+  display: grid
+  grid-template-columns: 1fr 1fr 1fr
+  grid-column-gap: 10px
+  padding: 0 10px
+
+// decorative bg
+.grid-lines
+  grid-auto-columns: max-content
+  position: absolute
+  min-height: 100vh
+  left: 0
+  right: 0
+  z-index: -100
+  pointer-events: none
+  box-shadow: inset 1px 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines
+  height: 100%
+  > div
+    box-shadow: inset 1px 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines
+
+.head-container
+  padding: 2rem 0
+  align-items: center
+
+  h1
+    max-width: 50rem
+
+.instruction-tag-group--video
+  grid-template-columns: 1fr 1fr auto !important
+  p
+    margin-right: 10px
+
+.instruction-tag-group
+  display: inline-grid
+  grid-template-columns: auto 1fr
+  align-items: center
+  justify-content: end
+  grid-gap: 0
+
+.instruction-tag
+  p
+    // margin: 0 10px
+    font-size: .75rem
+    font-weight: 700
+    color: $color-black
+    background: $color-primary
+    text-transform: uppercase
+    display: inline
+    padding: 0 .125rem
+    line-height: 1em
+
+.instruction-tag--right
+  margin-left: auto // this floats it to the right somehow =)
+
+.instruction-tag--line
+  width: 100%
+  height: 1px
+  display: block
+  margin: 0
+  padding: 0
+  background: $color-pink-tag-line

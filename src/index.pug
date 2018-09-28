@@ -1,0 +1,50 @@
+//- index.pug
+extends _includes/layout.pug
+
+block head
+  title Switch to Studio by MDS
+
+//- block meta pulls in here
+
+block content
+
+  main
+    .grid-three.grid-lines
+      .grid-column-one
+      .grid-column-two
+      .grid-column-three
+
+    .grid-two.head-container
+      div
+        h1 Learn Efficient Design &amp; Prototyping Workflows With <span>InVision Studio<em>.</em></span>
+      div
+        div.instruction-tag-group.instruction-tag-group--video
+          a.cta-video(href="#")
+            .arrow-right.arrow-one
+            .arrow-right.arrow-two
+            span Watch Trailer
+          .instruction-tag--line
+          .instruction-tag.instruction-tag--right
+            p Watch the Trailer
+
+    .grid-three.sprint-grid
+      .instruction-tag-group
+        .instruction-tag
+          p Start the Course
+        .instruction-tag--line
+      a(href="#") 01<em>.</em>
+      a(href="#") 02<em>.</em>
+      a(href="#") 03<em>.</em>
+      a(href="#") 04<em>.</em>
+
+    //- block buy
+    //-   include _includes/signup.pug
+
+    block foot
+      include _includes/foot.pug
+
+  block scripts
+    script(src='_scripts/index.js')
+
+
+
