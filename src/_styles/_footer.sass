@@ -1,2 +1,47 @@
 .footer
-  padding: 16rem 0
+  // padding: 16rem 0
+  align-items: center
+  text-transform: uppercase
+  font-size: .75rem
+  font-weight: 400
+
+  em
+    font-weight: 900
+
+  p a
+    font-weight: 600
+    box-shadow: inset 0 -2px 0 0 rgba($color-primary, 0)
+    +easeall
+
+    &:hover
+      box-shadow: inset 0 -1px 0 0 rgba($color-primary, 1)
+      +easeall
+
+  img.dff
+    max-width: 158px
+    margin-left: 10px
+
+  .social
+    text-align: right
+
+    li
+      display: inline
+      a
+        img
+          max-width: 40px
+          +easeall
+
+        span
+          display: none
+
+        &:hover
+          img
+            transform: scale(1.2)
+            +easeall
+
+  .footer-text.grid-two-one
+    grid-template-columns: 1fr auto
+    padding: 4rem 10px
+    a
+      text-align: right
+      padding: 0

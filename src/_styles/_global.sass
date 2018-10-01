@@ -12,11 +12,11 @@ body
   +sans
 
 ::-moz-selection
-  background: $color-black
+  background: rgba($color-primary, .1)
   color: $color-primary
 
 ::selection
-  background: $color-black
+  background: rgba($color-primary, .1)
   color: $color-primary
 
 img
@@ -24,9 +24,13 @@ img
 
 a
   -webkit-tap-highlight-color: rgba(0,0,0,0)
+  text-decoration: none
+  color: $color-white
+  position: relative
+
 
 h1
-  font-size: 5rem
+  font-size: 3.2rem
   color: $color-big-text-dark
   line-height: .8em
   font-weight: 300
@@ -37,8 +41,11 @@ h1
     em
       color: $color-primary
 
+  +small
+    font-size: 6rem
+
   +large
-    font-size: 6.875rem
+    font-size: 6rem
 
 p
   font-weight: 400

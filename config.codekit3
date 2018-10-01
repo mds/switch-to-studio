@@ -96,70 +96,182 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/_assets/img/studio icon.png": {
-		"ft": 32768,
-		"iS": 1501,
+	"/src/_assets/img/logo-dff.svg": {
+		"ft": 2097152,
+		"miP": 0,
 		"oA": 0,
-		"oAP": "/build/_assets/img/studio icon.png",
+		"oAP": "/build/_assets/img/logo-dff.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/logo-invision.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/logo-invision.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/logo-mds.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/logo-mds.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/social-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/social-facebook.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/social-insta.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/social-insta.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/social-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/social-twitter.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/social-youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/social-youtube.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/src/_assets/img/sprint-1-illustration.png": {
+		"ft": 32768,
+		"iS": 29828,
+		"oA": 0,
+		"oAP": "/build/_assets/img/sprint-1-illustration.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/src/_assets/invision.svg": {
-		"ft": 2097152,
-		"miP": 0,
+	"/src/_assets/img/sprint-2-illustration.png": {
+		"ft": 32768,
+		"iS": 27884,
 		"oA": 0,
-		"oAP": "/build/_assets/invision.svg",
+		"oAP": "/build/_assets/img/sprint-2-illustration.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
-	"/src/_assets/mds.svg": {
-		"ft": 2097152,
-		"miP": 0,
+	"/src/_assets/img/sprint-3-illustration.png": {
+		"ft": 32768,
+		"iS": 42863,
 		"oA": 0,
-		"oAP": "/build/_assets/mds.svg",
+		"oAP": "/build/_assets/img/sprint-3-illustration.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
-		"plM": 3758088159,
-		"prP": 0
+		"oT": 1,
+		"q": 100
 		},
-	"/src/_includes/buy.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
+	"/src/_assets/img/sprint-4-illustration.png": {
+		"ft": 32768,
+		"iS": 24466,
 		"oA": 0,
-		"oAP": "/build/_includes/buy.html",
+		"oAP": "/build/_assets/img/sprint-4-illustration.png",
 		"oF": 0,
-		"oS": 0
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/_assets/img/video-thumb.jpg": {
+		"ft": 16384,
+		"iS": 452,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/video-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/src/_includes/foot.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/foot.html",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0
 		},
 	"/src/_includes/form.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/form.html",
-		"oF": 0,
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/header.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/header.html",
+		"oF": 1,
 		"oS": 0
 		},
 	"/src/_includes/layout.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/build/_includes/layout.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/notified.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/notified.html",
+		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/video.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "/build/_includes/video.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -182,6 +294,19 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
+		},
+	"/src/_styles/_animations.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/src/_styles/_cta-orig.sass": {
 		"aP": 0,
@@ -261,6 +386,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_styles/_header.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_styles/_layout.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -283,6 +421,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_styles/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_notified.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_notified.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -326,6 +477,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_styles/_video.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_video.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_styles/style.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -347,6 +511,15 @@
 		"oAP": "/build/index.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"/src/sprint/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/sprint/index.html",
+		"oF": 1,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -357,9 +530,9 @@
 	"creationDate": 559689176.83149695,
 	"displayValue": "switch-to-studio",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "/src/_assets/img/studio icon.png",
+	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 559762252.74066603
+	"lastBuiltDate": 560112967.83701503
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

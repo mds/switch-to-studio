@@ -1,0 +1,43 @@
+//- sprint/index.pug
+extends ../_includes/layout.pug
+
+block head
+  title Studio Sprint
+  block stylesandscripts
+    link(rel="stylesheet" type="text/css" href="../_styles/style.css")
+    link(id="favicon" rel="shortcut icon" type="image/png" href="../_assets/img/favicon.png")
+
+//- block meta pulls in here
+
+block content
+
+  main
+    .grid-three.grid-lines
+      .grid-column-one
+      .grid-column-two
+      .grid-column-three
+
+    block header
+      include ../_includes/header.pug
+
+    .grid-two-one.head-container
+      div
+        h1 <a href="/">&larr;</a> <span>01 – </span> Get Started Fast with InVision Studio
+      div
+        div
+          a.cta-primary(href="#") Download Project Files
+
+    block main-video
+      include ../_includes/video.pug
+
+    block notified
+      include ../_includes/notified.pug
+
+    block foot
+      include ../_includes/foot.pug
+
+  block scripts
+    script(src='/_scripts/index.js')
+
+
+

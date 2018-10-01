@@ -1,15 +1,20 @@
-main
+\main
   max-width: 84rem
   margin: auto
   position: relative
-  left: 0
-  right: 0
+  // left: 1rem
+  // right: 1rem
 
-  +xlarge
-    max-width: 100rem
+  // +xlarge
+  //   max-width: 100rem
 
 // core layout
 .grid-two
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-column-gap: 10px
+
+.grid-two-one
   display: grid
   grid-template-columns: 2fr 1fr
   grid-column-gap: 10px
@@ -19,6 +24,11 @@ main
   grid-template-columns: 1fr 1fr 1fr
   grid-column-gap: 10px
   padding: 0 10px
+
+.grid-span-two
+  display: grid
+  grid-template-columns: auto 1fr
+  grid-column-gap: 10px
 
 // decorative bg
 .grid-lines
@@ -35,19 +45,36 @@ main
     box-shadow: inset 1px 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines
 
 .head-container
-  padding: 2rem 0
+  padding: 2rem 0 8rem
   align-items: center
 
   h1
-    max-width: 50rem
+    max-width: 48rem
+    margin-left: 10px
+
+    +small
+      margin-left: 0
+
+    a
+      color: $color-primary
+      font-size: .75em
+      position: relative
+      display: inline-block
+      top: -.1em
+      transform: translateX(10px)
+      +easeall
+
+      &:hover
+        transform: translateX(0)
+        +easeall
 
 .instruction-tag-group--video
   grid-template-columns: 1fr 1fr auto !important
-  p
-    margin-right: 10px
+  // p
+  //   margin-right: 10px
 
 .instruction-tag-group
-  display: inline-grid
+  display: grid
   grid-template-columns: auto 1fr
   align-items: center
   justify-content: end
@@ -67,6 +94,7 @@ main
 
 .instruction-tag--right
   margin-left: auto // this floats it to the right somehow =)
+  margin-right: 10px
 
 .instruction-tag--line
   width: 100%
