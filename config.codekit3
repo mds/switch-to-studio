@@ -570,7 +570,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560119225.00852394
+	"lastBuiltDate": 560456969.89016294
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1976,7 +1976,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
