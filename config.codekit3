@@ -7,7 +7,7 @@
 		"uuidString": "550F27EC-B8AB-4955-BC5C-186DCBAEFF5B"
 		}
 	],
-"creatorBuild": "28841",
+"creatorBuild": "28901",
 "files": {
 	"/build": {
 		"ft": 65536,
@@ -84,6 +84,17 @@
 		"oA": 0,
 		"oAP": "/build/_assets/fonts/Mikro-Regular.woff2",
 		"oF": 0
+		},
+	"/src/_assets/img/avatar-mds.png": {
+		"ft": 32768,
+		"iS": 5040,
+		"oA": 0,
+		"oAP": "/build/_assets/img/avatar-mds.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/_assets/img/favicon.png": {
 		"ft": 32768,
@@ -264,6 +275,24 @@
 		"oA": 0,
 		"oAP": "/build/_includes/notified.html",
 		"oF": 1,
+		"oS": 0
+		},
+	"/src/_includes/sprintvars-orig.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/sprintvars-orig.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/_includes/sprintvars.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "/build/_includes/sprintvars.html",
+		"oF": 0,
 		"oS": 0
 		},
 	"/src/_includes/video.pug": {
@@ -520,6 +549,15 @@
 		"oAP": "/build/sprint/index.html",
 		"oF": 1,
 		"oS": 0
+		},
+	"/src/vip/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/vip/index.html",
+		"oF": 0,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -532,7 +570,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560112967.83701503
+	"lastBuiltDate": 560119225.00852394
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
