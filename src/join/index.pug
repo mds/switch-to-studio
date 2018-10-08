@@ -18,26 +18,14 @@ block content
         .grid-column-two
         .grid-column-three
 
-      block header
-        include ../_includes/header.pug
-
       .grid-two-one.head-container
         div
-          h1 <a href="/">&larr;</a> <span>01 – </span> Get Started Fast with InVision Studio
+          h1 <a href="/">&larr;</a> <span>Join the MDS List </span> and get notified when new videos are released.
         div
-          div
-            a.cta-primary(href="#") Download Project Files
-
-      //- **************************************************
-      //- main video section is in this include
-
-      block main-video
-        include ../_includes/video.pug
-
-      //- **************************************************
-
-      block notified
-        include ../_includes/notified.pug
+          .instruction-tag.instruction-tag--center
+            p Fill this out
+          .instruction-tag--line.instruction-tag--line-vertical
+          include ../_includes/form.pug
 
     block foot
       include ../_includes/foot.pug

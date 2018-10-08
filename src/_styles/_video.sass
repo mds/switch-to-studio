@@ -13,16 +13,39 @@
 
 .video
   margin-left: 10px
+
+  .title-link
+    padding: 2rem 0
+    grid-template-columns: auto auto
+    align-items: top
+    grid-gap: 4rem
+
   h2
     font-size: 1.5rem
     color: $color-white
     font-weight: 400
-    padding: 2rem 0
+
+  a
+    color: $color-white
+    font-size: .75rem
+    text-transform: uppercase
+    text-align: right
+    margin-top: .325rem
+    margin-right: 2px
+    em
+      font-weight: 900
+      border-bottom: 1px solid $color-primary
+
+    img
+      width: 16px
+      position: relative
+      top: .25rem
+      left: -.5rem
 
   p
     padding: 2rem 0
     line-height: 1.35em
-    max-width: 27rem
+    max-width: 40rem
 
   .instructor
     grid-template-columns: auto 1fr
@@ -40,11 +63,14 @@
 .video-playlist
   li
     margin-bottom: 10px
+    margin-right: 10px
   a
     grid-template-columns: auto 1fr
     font-weight: 600
     grid-gap: 20px
     color: white
+    padding: 1rem
+    +easeall
 
     h3
       font-size: 1rem
@@ -55,13 +81,15 @@
       // em
       //   font-weight: 300
 
-    &:hover img
-      opacity: .5
+    &:hover
+      background: $color-main-dark-panel-bg-hover
       +easeall
+      img
+        opacity: 1
+        +easeall
 
     &.now-playing:hover img
-      opacity: .9
-      cursor: no-drop
+      opacity: 1
 
     time
       font-size: .875rem
@@ -76,8 +104,6 @@
       padding: 0
       margin: 0
       max-width: 13.75rem
-      opacity: .9
-      // mix-blend-mode: lighten
       +easeall
 
     &:before
@@ -87,29 +113,35 @@
       height: 100%
       position: absolute
       z-index: -10
-      background: $color-primary//$color-main-dark-panel-bg
+      background: $color-pink-tag-line
       top: 0
       left: 0
-      // box-shadow: 0 0 0 1px $color-main-dark-panel-bg
 
 .video-playlist li a.now-playing
+  pointer-events: none
+  background: $color-main-dark-panel-bg-hover
+  cursor: default
+
+  img
+    opacity: 1
+
   h3
     font-weight: 900
   .now-playing
     position: relative
     text-transform: uppercase
-    font-size: .75rem
+    font-size: .675rem
     color: $color-primary
-    font-weight: 900
+    font-weight: 600
     padding: .5rem 1rem .1rem
-    line-height: 1em
+    line-height: 1.1em
 
     &:before,
     &:after
       content: " "
       display: block
-      width: 8px
-      height: 8px
+      width: 6px
+      height: 6px
       top: 10px
       left: 0
       border-radius: 50%
@@ -118,7 +150,7 @@
 
     &:after
       animation: blink 1s infinite
-      box-shadow: 0 0 32px 4px $color-primary
+      box-shadow: 0 0 12px 1px $color-primary
 
 
 

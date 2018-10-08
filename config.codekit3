@@ -107,6 +107,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/icon-download.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/build/_assets/img/icon-download.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/src/_assets/img/logo-dff.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -232,6 +242,14 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/src/_data/sprintdata.json": {
+		"ft": 524288,
+		"oA": 0,
+		"oAP": "/build/_data/sprintdata.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/src/_includes/foot.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -277,12 +295,12 @@
 		"oF": 1,
 		"oS": 0
 		},
-	"/src/_includes/sprintvars-orig.pug": {
+	"/src/_includes/sprintvars-IDonly.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "/build/_includes/sprintvars-orig.html",
+		"oAP": "/build/_includes/sprintvars-IDonly.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -398,6 +416,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_styles/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_form.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_form.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -532,12 +563,46 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/almost/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/almost/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/download/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/download/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/favicon.ico",
+		"oF": 0
+		},
 	"/src/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "/build/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/join/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/join/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -548,15 +613,6 @@
 		"oA": 0,
 		"oAP": "/build/sprint/index.html",
 		"oF": 1,
-		"oS": 0
-		},
-	"/src/vip/index.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/build/vip/index.html",
-		"oF": 0,
 		"oS": 0
 		}
 	},
@@ -570,7 +626,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560456969.89016294
+	"lastBuiltDate": 560710435.16796005
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

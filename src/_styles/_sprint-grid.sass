@@ -1,6 +1,7 @@
 .sprint-grid
   grid-gap: 10px
   align-items: center
+  padding-bottom: 4rem
 
   img
     padding: 1rem 0
@@ -86,3 +87,70 @@
       &:after
         background: $color-main-dark-panel-bg-hover
         +easeall
+
+.sprint-grid.sprint-grid--download
+  padding-bottom: 6rem
+  a
+    height: 34rem
+    position: relative
+
+    img
+      width: 24px
+      position: absolute
+      top: 1.5rem
+      right: 2.75rem
+      z-index: 100
+
+    &:hover .download-wrapper
+      &:after
+        background: $color-small-grey-text
+        transform: scale(.9)
+        +easeall
+      &:before
+        background: $color-main-dark-panel-bg
+        +easeall
+
+      h4
+        color: $color-primary
+        +easeall
+
+  .download-wrapper
+    position: relative
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+
+    &:after
+      content: " "
+      diplay: block
+      width: 22px
+      height: 22px
+      position: absolute
+      bottom: 3.25rem
+      right: 0rem
+      background: $color-pink-tag-line
+      +easeall
+
+    &:before
+      content: " "
+      diplay: block
+      width: 6px
+      height: 6px
+      position: absolute
+      bottom: 3.5rem
+      right: .25rem
+      z-index: 10
+      background: $color-main-dark-panel-bg
+      +easeall
+
+  h2
+    position: absolute
+    // left: 2.5rem
+    bottom: 6rem
+
+  h4
+    position: absolute
+    // left: 2.5rem
+    bottom: 2rem
+

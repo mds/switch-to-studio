@@ -6,54 +6,54 @@ include ../_includes/sprintvars.pug
     .video
       .video-wrap
         iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_1_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
-      h2 Prototype walkthrough with InVision Studio
+      .title-link.grid-two
+        h2 #{sprint_1_1_title}
+        a(href="#")
+          img(src="../_assets/img/icon-download.svg" alt="download icon")
+          <em>Download</em> the project files
       .instructor.grid-two
         img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
         h5 by
           a(href="http://twitter.com/mds")  MDS
-      p In this video, we'll take a look at ways to get started fast by using simple shapes to create a fun, interactive prototype with different types of animations.
+      p #{sprint_1_1_desc}
     div.video-playlist
-      //- Note to self: Can I get the titles and length <time> from the YouTube API?
+
       ol
 
-        //- video thumb 1 -------------------------
         li: a.grid-two.now-playing(href="#")
           .vid-thumb
             img(src="http://img.youtube.com/vi/" + sprint_1_1_ID + "/mqdefault.jpg" alt="video thumbnail")
           div
-            h3 1.1 – Prototype walkthrough with InVision Studio
+            h3 #{sprint_1_1_title}
             p.now-playing Now Viewing
-            time 01:11
+            time #{sprint_1_1_time}
 
-        //- video thumb 2 -------------------------
         li: a.grid-two(href="#")
           .vid-thumb
             img(src="http://img.youtube.com/vi/" + sprint_1_2_ID + "/mqdefault.jpg" alt="video thumbnail")
           div
-            h3 1.2 – Simple UI Animation
-            time 03:09
+            h3 #{sprint_1_2_title}
+            time #{sprint_1_2_time}
 
-        //- video thumb 3 -------------------------
         li: a.grid-two(href="#")
           .vid-thumb
             img(src="http://img.youtube.com/vi/" + sprint_1_3_ID + "/mqdefault.jpg" alt="video thumbnail")
           div
-            h3 1.3 – Duplicating and Modifying Interactions
-            time 18:47
+            h3 #{sprint_1_3_title}
+            time #{sprint_1_3_time}
 
-        //- video thumb 4 -------------------------
         li: a.grid-two(href="#")
           .vid-thumb
             img(src="http://img.youtube.com/vi/" + sprint_1_4_ID + "/mqdefault.jpg" alt="video thumbnail")
           div
-            h3 1.4 – Exploring Swipe Interactions
-            time 15:14
+            h3 #{sprint_1_4_title}
+            time #{sprint_1_4_time}
 
-        //- video thumb 5 -------------------------
         li: a.grid-two(href="#")
           .vid-thumb
             img(src="http://img.youtube.com/vi/" + sprint_1_5_ID + "/mqdefault.jpg" alt="video thumbnail")
           div
-            h3 1.5 – Advanced Time-based Animations
-            time 17:29
+            h3 #{sprint_1_5_title}
+            time #{sprint_1_5_time}
+
 
