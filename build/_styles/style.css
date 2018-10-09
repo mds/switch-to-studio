@@ -103,9 +103,9 @@ h1 {
   font-weight: 300;
   letter-spacing: -.3rem;
   text-transform: uppercase; }
-  h1 span {
+  h1 em {
     color: #ffffff; }
-    h1 span em {
+    h1 em strong {
       color: #ff3366; }
   @media (min-width: 820px) {
     h1 {
@@ -583,6 +583,9 @@ header {
         animation: blink .5s infinite;
         transition: all 0.1s ease-out; }
 
+.dynamic-content {
+  display: none; }
+
 .video-wrap {
   position: relative;
   padding-bottom: 56.25%;
@@ -613,7 +616,7 @@ header {
     text-transform: uppercase;
     text-align: right;
     margin-top: .325rem;
-    margin-right: 2px; }
+    margin-right: 20px; }
     .video a em {
       font-weight: 900;
       border-bottom: 1px solid #ff3366; }
@@ -737,7 +740,7 @@ header {
     transition: all .2s ease-out; }
   .inp input {
     -webkit-appearance: none;
-    caret-color: #3d99f7;
+    caret-color: #ff3366;
     position: relative;
     width: 100%;
     border: 0;
@@ -747,7 +750,7 @@ header {
     height: 4.25rem;
     background: none;
     border-radius: 0;
-    color: #3d99f7;
+    color: #ff3366;
     font-weight: 600;
     text-align: left;
     font-size: 1rem;

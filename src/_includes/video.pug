@@ -1,59 +1,240 @@
 include ../_includes/sprintvars.pug
 
-//- SPRINT ONE ---------------------------------------------------------------------------
-//- **************************************************************************************
-.grid-two-one.sprint.sprint--one
-    .video
-      .video-wrap
-        iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_1_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
-      .title-link.grid-two
-        h2 #{sprint_1_1_title}
-        a(href="#")
-          img(src="../_assets/img/icon-download.svg" alt="download icon")
-          <em>Download</em> the project files
-      .instructor.grid-two
-        img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
-        h5 by
-          a(href="http://twitter.com/mds")  MDS
-      p #{sprint_1_1_desc}
-    div.video-playlist
+//- SPRINT ONE
+//- ------------------------------------------------------------------------------------
+.sprint--one.dynamic-content
+  .grid-two-one.sprint
+      .video
+        .video-wrap
+          iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_1_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
+        .title-link.grid-two
+          h2 #{sprint_1_1_title}
+          a(href="#")
+            img(src="../_assets/img/icon-download.svg" alt="download icon")
+            <em>Download</em> the project files
+        .instructor.grid-two
+          img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
+          h5 by
+            a(href="http://twitter.com/mds")  MDS
+        p #{sprint_1_1_desc}
+      div.video-playlist
 
-      ol
+        ol
 
-        li: a.grid-two.now-playing(href="#")
-          .vid-thumb
-            img(src="http://img.youtube.com/vi/" + sprint_1_1_ID + "/mqdefault.jpg" alt="video thumbnail")
-          div
-            h3 #{sprint_1_1_title}
-            p.now-playing Now Viewing
-            time #{sprint_1_1_time}
+          li: a.grid-two.now-playing(href="" + sprint_1_1_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_1_1_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_1_1_title}
 
-        li: a.grid-two(href="#")
-          .vid-thumb
-            img(src="http://img.youtube.com/vi/" + sprint_1_2_ID + "/mqdefault.jpg" alt="video thumbnail")
-          div
-            h3 #{sprint_1_2_title}
-            time #{sprint_1_2_time}
+              time #{sprint_1_1_time}
 
-        li: a.grid-two(href="#")
-          .vid-thumb
-            img(src="http://img.youtube.com/vi/" + sprint_1_3_ID + "/mqdefault.jpg" alt="video thumbnail")
-          div
-            h3 #{sprint_1_3_title}
-            time #{sprint_1_3_time}
+          li: a.grid-two(href="" + sprint_1_2_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_1_2_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_1_2_title}
+              time #{sprint_1_2_time}
 
-        li: a.grid-two(href="#")
-          .vid-thumb
-            img(src="http://img.youtube.com/vi/" + sprint_1_4_ID + "/mqdefault.jpg" alt="video thumbnail")
-          div
-            h3 #{sprint_1_4_title}
-            time #{sprint_1_4_time}
+          li: a.grid-two(href="" + sprint_1_3_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_1_3_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_1_3_title}
+              time #{sprint_1_3_time}
 
-        li: a.grid-two(href="#")
-          .vid-thumb
-            img(src="http://img.youtube.com/vi/" + sprint_1_5_ID + "/mqdefault.jpg" alt="video thumbnail")
-          div
-            h3 #{sprint_1_5_title}
-            time #{sprint_1_5_time}
+          li: a.grid-two(href="" + sprint_1_4_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_1_4_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_1_4_title}
+              time #{sprint_1_4_time}
 
+          li: a.grid-two(href="" + sprint_1_5_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_1_5_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_1_5_title}
+              time #{sprint_1_5_time}
 
+//- SPRINT TWO
+//- ------------------------------------------------------------------------------------
+.sprint--two.dynamic-content
+  .grid-two-one.sprint
+      .video
+        .video-wrap
+          iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_2_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
+        .title-link.grid-two
+          h2 #{sprint_2_1_title}
+          a(href="#")
+            img(src="../_assets/img/icon-download.svg" alt="download icon")
+            <em>Download</em> the project files
+        .instructor.grid-two
+          img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
+          h5 by
+            a(href="http://twitter.com/mds")  MDS
+        p #{sprint_2_1_desc}
+      div.video-playlist
+
+        ol
+
+          li: a.grid-two.now-playing(href="" + sprint_2_1_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_2_1_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_2_1_title}
+              time #{sprint_2_1_time}
+
+          li: a.grid-two(href="" + sprint_2_2_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_2_2_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_2_2_title}
+              time #{sprint_2_2_time}
+
+          li: a.grid-two(href="" + sprint_2_3_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_2_3_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_2_3_title}
+              time #{sprint_2_3_time}
+
+          li: a.grid-two(href="" + sprint_2_4_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_2_4_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_2_4_title}
+              time #{sprint_2_4_time}
+
+          li: a.grid-two(href="" + sprint_2_5_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_2_5_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_2_5_title}
+              time #{sprint_2_5_time}
+
+//- SPRINT THREE
+//- ------------------------------------------------------------------------------------
+.sprint--three.dynamic-content
+  .grid-two-one.sprint
+      .video
+        .video-wrap
+          iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_3_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
+        .title-link.grid-two
+          h2 #{sprint_3_1_title}
+          a(href="#")
+            img(src="../_assets/img/icon-download.svg" alt="download icon")
+            <em>Download</em> the project files
+        .instructor.grid-two
+          img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
+          h5 by
+            a(href="http://twitter.com/mds")  MDS
+        p #{sprint_3_1_desc}
+      div.video-playlist
+
+        ol
+
+          li: a.grid-two.now-playing(href="" + sprint_3_1_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_3_1_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_3_1_title}
+              time #{sprint_3_1_time}
+
+          li: a.grid-two(href="" + sprint_3_2_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_3_2_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_3_2_title}
+              time #{sprint_3_2_time}
+
+          li: a.grid-two(href="" + sprint_3_3_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_3_3_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_3_3_title}
+              time #{sprint_3_3_time}
+
+          li: a.grid-two(href="" + sprint_3_4_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_3_4_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_3_4_title}
+              time #{sprint_3_4_time}
+
+          li: a.grid-two(href="" + sprint_3_5_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_3_5_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_3_5_title}
+              time #{sprint_3_5_time}
+
+//- SPRINT FOUR
+//- ------------------------------------------------------------------------------------
+.sprint--four.dynamic-content
+  .grid-two-one.sprint
+      .video
+        .video-wrap
+          iframe(width="560", height="315", src="https://www.youtube.com/embed/" + sprint_4_1_ID + "?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
+        .title-link.grid-two
+          h2 #{sprint_4_1_title}
+          a(href="#")
+            img(src="../_assets/img/icon-download.svg" alt="download icon")
+            <em>Download</em> the project files
+        .instructor.grid-two
+          img(src="../_assets/img/avatar-mds.png" alt="mds avatar")
+          h5 by
+            a(href="http://twitter.com/mds")  MDS
+        p #{sprint_4_1_desc}
+      div.video-playlist
+
+        ol
+
+          li: a.grid-two.now-playing(href="" + sprint_4_1_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_1_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_1_title}
+              time #{sprint_4_1_time}
+
+          li: a.grid-two(href="" + sprint_4_2_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_2_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_2_title}
+              time #{sprint_4_2_time}
+
+          li: a.grid-two(href="" + sprint_4_3_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_3_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_3_title}
+              time #{sprint_4_3_time}
+
+          li: a.grid-two(href="" + sprint_4_4_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_4_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_4_title}
+              time #{sprint_4_4_time}
+
+          li: a.grid-two(href="" + sprint_4_5_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_5_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_5_title}
+              time #{sprint_4_5_time}
+
+          li: a.grid-two(href="" + sprint_4_6_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_6_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_6_title}
+              time #{sprint_4_6_time}
+
+          li: a.grid-two(href="" + sprint_4_7_URL)
+            .vid-thumb
+              img(src="http://img.youtube.com/vi/" + sprint_4_7_ID + "/mqdefault.jpg" alt="video thumbnail")
+            .vid-info
+              h3 #{sprint_4_7_title}
+              time #{sprint_4_7_time}
