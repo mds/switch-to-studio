@@ -229,6 +229,18 @@ $(document).ready(function() {
     $(".video-playlist li:nth-child("+lessonNum+") a").addClass("now-playing");
   }
 
+  // check form
+  function checkForm(form)
+  {
+    ...
+    if(!form.checkbox_1.checked) {
+      alert("Please acknowledge that your information may be shared with InVision");
+      form.checkbox_1.focus();
+      return false;
+    }
+    return true;
+  }
+
 });
 
 

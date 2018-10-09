@@ -406,16 +406,6 @@ header {
     animation: blink .5s infinite;
     transition: all .2s ease-out; }
 
-.cta-disclaimer {
-  line-height: 1.5em;
-  padding: 2rem 1rem;
-  font-size: .875rem;
-  text-align: center;
-  margin-right: 10px; }
-  .cta-disclaimer strong {
-    font-weight: 600;
-    color: #787b82; }
-
 .sprint-grid {
   grid-gap: 10px;
   align-items: center;
@@ -722,57 +712,56 @@ header {
 .form-label {
   background: #151516;
   margin-bottom: 10px; }
-
-.inp {
-  position: relative;
-  margin: auto;
-  width: 100%; }
-  .inp .label {
-    position: absolute;
-    top: -.5rem;
-    left: 1.5rem;
-    font-size: .875rem;
-    color: #787b82;
-    font-weight: 600;
-    transform-origin: 0 0;
-    cursor: text;
-    pointer-events: none;
-    transition: all .2s ease-out; }
-  .inp input {
-    -webkit-appearance: none;
-    caret-color: #ff3366;
+  .form-label .inp {
     position: relative;
-    width: 100%;
-    border: 0;
-    top: 0;
-    padding-top: .75rem;
-    text-indent: 1.5rem;
-    height: 4.25rem;
-    background: none;
-    border-radius: 0;
-    color: #ff3366;
-    font-weight: 600;
-    text-align: left;
-    font-size: 1rem;
-    transition: all .2s ease-out; }
-    .inp input:not(:placeholder-shown) {
-      top: .25rem; }
-      .inp input:not(:placeholder-shown) + span {
-        color: #ffffff;
-        transform: translateY(-0.75rem) scale(0.875);
-        transition: all .2s ease-out; }
-    .inp input:focus {
-      top: .25rem;
-      outline: none; }
-      .inp input:focus + span {
-        color: #ffffff;
-        transform: translateY(-0.75rem) scale(0.875); }
+    margin: auto;
+    width: 100%; }
+    .form-label .inp .label {
+      position: absolute;
+      top: -.5rem;
+      left: 1.5rem;
+      font-size: .875rem;
+      color: #787b82;
+      font-weight: 600;
+      transform-origin: 0 0;
+      cursor: text;
+      pointer-events: none;
+      transition: all .2s ease-out; }
+    .form-label .inp input {
+      -webkit-appearance: none;
+      caret-color: #ff3366;
+      position: relative;
+      width: 100%;
+      border: 0;
+      top: 0;
+      padding-top: .75rem;
+      text-indent: 1.5rem;
+      height: 4.25rem;
+      background: none;
+      border-radius: 0;
+      color: #ff3366;
+      font-weight: 600;
+      text-align: left;
+      font-size: 1rem;
+      transition: all .2s ease-out; }
+      .form-label .inp input:not(:placeholder-shown) {
+        top: .25rem; }
+        .form-label .inp input:not(:placeholder-shown) + span {
+          color: #ffffff;
+          transform: translateY(-0.75rem) scale(0.875);
+          transition: all .2s ease-out; }
+      .form-label .inp input:focus {
+        top: .25rem;
+        outline: none; }
+        .form-label .inp input:focus + span {
+          color: #ffffff;
+          transform: translateY(-0.75rem) scale(0.875); }
 
 button {
   width: 100%;
   height: 4rem;
   border: none;
-  margin: 3rem 0 0;
+  margin: 2rem 0 0;
   text-transform: uppercase;
   font-size: .875rem;
   font-family: 'Mikro', -apple-system, ".SFNSText-Regular", "Helvetica Neue", "Segoe UI", sans-serif; }
@@ -786,6 +775,67 @@ input:-webkit-autofill:focus {
 
 .formkit-alert-success {
   text-align: center; }
+
+.form-disclaimer {
+  line-height: 1.45em;
+  padding: 2rem 1rem;
+  font-size: .875rem;
+  text-align: left;
+  margin-left: 1.5rem;
+  text-indent: 1rem; }
+  .form-disclaimer strong {
+    font-weight: 600;
+    color: #787b82; }
+
+.form-checkbox {
+  position: relative; }
+  .form-checkbox input[type="checkbox"] {
+    opacity: 0;
+    left: 0;
+    position: absolute; }
+
+.form-checkbox label {
+  position: absolute;
+  left: 1px;
+  margin-top: 1px; }
+
+.form-checkbox label::before,
+.form-checkbox label::after {
+  pointer-events: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  display: inline-block; }
+
+.form-checkbox label::before {
+  height: 18px;
+  width: 18px;
+  border-radius: 2px;
+  border: 1px solid #404244;
+  background: linear-gradient(#343537, #404244);
+  left: -1px;
+  top: -1px; }
+
+.form-checkbox label::after {
+  height: 5px;
+  width: 11px;
+  border-left: 2px solid #ff3366;
+  border-bottom: 2px solid #ff3366;
+  transform: rotate(-45deg);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  left: 3px;
+  top: 4px; }
+
+.form-checkbox input[type="checkbox"] + label::after {
+  content: none; }
+
+.form-checkbox input[type="checkbox"]:checked + label::after {
+  content: " "; }
+
+.form-checkbox input[type="checkbox"]:checked + label::before {
+  border: 1px solid #343537;
+  background: linear-gradient(#28282a, #343537); }
 
 .footer {
   padding-top: 4rem;
