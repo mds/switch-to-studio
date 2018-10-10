@@ -1,3 +1,21 @@
+.sprint
+  margin-top: 4rem
+
+.video-overlay
+  display: none
+  width: 100%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 500
+  background: rgba($color-small-grey-text, .5)
+
+  .video-overlay-wrapper
+    width: 60%
+    position: absolute
+    +center
+
 .dynamic-content
   display: none
 
@@ -16,6 +34,7 @@
 
 .video
   margin-left: 10px
+  margin-bottom: 8rem
 
   .title-link
     padding: 2rem 0
@@ -29,15 +48,8 @@
     font-weight: 400
 
   a
-    color: $color-white
-    font-size: .75rem
-    text-transform: uppercase
-    text-align: right
-    margin-top: .325rem
-    margin-right: 20px
-    em
-      font-weight: 900
-      border-bottom: 1px solid $color-primary
+    margin-top: 2rem
+    margin-right: 0
 
     img
       width: 16px

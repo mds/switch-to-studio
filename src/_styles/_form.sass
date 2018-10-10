@@ -1,3 +1,6 @@
+form
+  margin-right: 10px
+
 .form-label
   background: $color-main-dark-panel-bg-hover
   margin-bottom: 10px
@@ -73,11 +76,18 @@ input:-webkit-autofill:focus
 
 .form-disclaimer
   line-height: 1.45em
-  padding: 2rem 1rem
-  font-size: .875rem
+  padding: 1rem
+  font-size: .75rem
   text-align: left
-  margin-left: 1.5rem
-  text-indent: 1rem
+  cursor: default
+  text-indent: 2.5rem
+
+.form-helper
+  line-height: 1.5em
+  padding: 2rem 1rem
+  font-size: .75rem
+  text-align: center
+  margin-bottom: 2rem
 
   strong
     font-weight: 600
@@ -86,10 +96,16 @@ input:-webkit-autofill:focus
 // checkbox
 .form-checkbox
   position: relative
+  // background: $color-main-dark-panel-bg
+  cursor: default
 
   input[type="checkbox"]
     opacity: 0
     left: 0
+    width: 100%
+    height: 100%
+    bottom: 0
+    top: 0
     position: absolute
 
 .form-checkbox label
@@ -102,7 +118,7 @@ input:-webkit-autofill:focus
   pointer-events: none
   position: absolute
   top: 0px
-  left: 0px
+  left: 1.5rem
   content: ""
   display: inline-block // Needed for the line-height to take effect
 
@@ -110,21 +126,20 @@ input:-webkit-autofill:focus
 .form-checkbox label::before
   height: 18px
   width: 18px
-  border-radius: 2px
   border: 1px solid lighten($color-pink-tag-line, 5%)
   background: linear-gradient($color-pink-tag-line, lighten($color-pink-tag-line, 5%))
-  left: -1px
   top: -1px
 
 // Checkmark of the fake checkbox
 .form-checkbox label::after
-  height: 5px
-  width: 11px
-  border-left: 2px solid $color-primary
-  border-bottom: 2px solid $color-primary
+  height: 6px
+  width: 12px
+  border-left: 3px solid $color-black
+  border-bottom: 3px solid $color-black
   transform: rotate(-45deg)
-  box-shadow: 0 1px 1px 0 rgba($color-black, .5)
-  left: 3px
+  // box-shadow: 0 1px 2px 0 rgba($color-black, .3)
+  background: transparent
+  margin-left: 2px
   top: 4px
 
 // Hide the checkmark by default
@@ -137,9 +152,9 @@ input:-webkit-autofill:focus
 
 // Add focused state for checkbox
 .form-checkbox input[type="checkbox"]:checked + label::before
-  border: 1px solid $color-pink-tag-line
-  background: linear-gradient(darken($color-pink-tag-line, 5%), $color-pink-tag-line)
+  border: none
+  background: $color-small-grey-text
 
 // Adding focus styles on the outer-box of the fake checkbox
 .form-checkbox input[type="checkbox"]:focus + label::before
-  outline: $color-primary auto 2px
+  // outline: rgba($color-primary, .25) auto 1px

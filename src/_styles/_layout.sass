@@ -4,8 +4,12 @@ main
   position: relative
 
 .main-wrapper
-  padding-top: 1rem
+  padding-top: 0
   min-height: calc(100vh - 246px)
+
+.main-content--center
+  margin: auto
+  max-width: 40rem
 
 // core layout
 .grid-two
@@ -44,7 +48,7 @@ main
     box-shadow: inset 1px 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines
 
 .head-container
-  padding: 2rem 0 8rem
+  padding: 2rem 0
   align-items: center
 
   h1
@@ -66,6 +70,9 @@ main
       &:hover
         transform: translateX(0)
         +easeall
+
+.head-container.head-container--top
+  align-items: top !important
 
 .instruction-tag-group--video
   grid-template-columns: 1fr 1fr auto !important

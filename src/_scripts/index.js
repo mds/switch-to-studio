@@ -1,17 +1,16 @@
-
-
 // console.log("Look ma, no errors!\n\nBuuuuuut.... if you see something crazy or just plain wrong though, please reach out. I only half know what I'm doing here. A DM or public reply is perfectly acceptable.\n\n🖤\n—MDS\nhttp://twitter.com/mds\n\n");
 console.log("Thanks for popping open the inspector.\nIf you see something wrong, please let me know!\nA DM or public reply is perfectly acceptable.\n\n—MDS\nhttp://twitter.com/mds\n\n");
 
-  // Parse the URL parameter
+
+// Parse the URL parameter
 function getParameterByName(name, url) {
-    if (!url) url = window.location.href;
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 // Give the parameter a variable name
 var dynamicContent = getParameterByName('s');
@@ -19,6 +18,23 @@ var dynamicContent = getParameterByName('s');
 // Do this after page is loaded and ready
 $(document).ready(function() {
 
+  // show/hide video overlay
+  $(".video-overlay").on('click', function() {
+    $(".video-overlay").fadeOut();
+  });
+
+  $(".cta-video").on('click', function() {
+    $(".video-overlay").fadeIn();
+    return false; // stops URL from loading
+  });
+
+  $(document).keyup(function(e) {
+    if (e.keyCode === 27) {
+      $(".video-overlay").fadeOut();
+    }
+  });
+
+  // lesson variables
   var sprint_1_1_ID = "aXsizGMW85w";
   var sprint_1_2_ID = "yu1y9p-mxYM";
   var sprint_1_3_ID = "J-QV70gKNmI";

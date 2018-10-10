@@ -1,0 +1,62 @@
+//- sprint/index.pug
+extends ../_includes/layout.pug
+
+block head
+  title Switch to Studio – Download Project Files
+  block stylesandscripts
+    link(rel="stylesheet" type="text/css" href="../_styles/style.css")
+    link(id="favicon" rel="shortcut icon" type="image/png" href="../_assets/img/favicon.png")
+
+//- block meta pulls in here
+
+block content
+
+  main
+    .main-wrapper
+      .grid-three.grid-lines
+        .grid-column-one
+        .grid-column-two
+        .grid-column-three
+
+      block header
+        include ../_includes/header.pug
+
+      .grid-two-one.head-container
+        div
+          h1 <a href="/">&larr;</a> <em>Switch to Studio </em> file download repository
+
+      .grid-three.sprint-grid.sprint-grid--download
+        .instruction-tag-group
+          .instruction-tag
+            p Download the Studio files
+          .instruction-tag--line
+        a(href="#") 01<em>.</em>
+          img(src="../_assets/img/icon-download.svg" alt="download icon")
+          .download-wrapper
+            h2 Get started fast with InVision Studio
+            h4 .zip download
+        a(href="#") 02<em>.</em>
+          img(src="../_assets/img/icon-download.svg" alt="download icon")
+          .download-wrapper
+            h2 Interface design for a conceptual iOS app
+            h4 .zip download
+        a(href="#") 03<em>.</em>
+          img(src="../_assets/img/icon-download.svg" alt="download icon")
+          .download-wrapper
+            h2 Custom iOS app screen transitions
+            h4 .zip download
+        a(href="#") 04<em>.</em>
+          img(src="../_assets/img/icon-download.svg" alt="download icon")
+          .download-wrapper
+            h2 Exploring animations in low fidelity
+            h4 .zip download
+
+    block foot
+      include ../_includes/foot.pug
+
+  block scripts
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+    script(src='/_scripts/index.js')
+
+
+

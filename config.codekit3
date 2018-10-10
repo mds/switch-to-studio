@@ -125,6 +125,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/_assets/img/flowkit montage.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/_assets/img/flowkit montage.sketch",
+		"oF": 0
+		},
 	"/src/_assets/img/icon-download.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -360,6 +367,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/src/_scripts/vendor/venobox.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/_scripts/vendor/venobox.min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/src/_styles/_animations.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -581,6 +598,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_styles/vendor/_venobox.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/vendor/_venobox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/almost/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -606,6 +636,15 @@
 		"oAP": "/build/favicon.ico",
 		"oF": 0
 		},
+	"/src/files/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/files/index.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -615,12 +654,21 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/join/index.pug": {
+	"/src/notified/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "/build/join/index.html",
+		"oAP": "/build/notified/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/privacy/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/privacy/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -644,7 +692,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560710435.16796005
+	"lastBuiltDate": 560889566.14165401
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
