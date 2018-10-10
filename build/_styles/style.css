@@ -837,6 +837,9 @@ input:-webkit-autofill:focus {
   border: 1px solid #343537;
   background: linear-gradient(#28282a, #343537); }
 
+.form-checkbox input[type="checkbox"]:focus + label::before {
+  outline: #ff3366 auto 2px; }
+
 .footer {
   padding-top: 4rem;
   align-items: center;

@@ -232,7 +232,6 @@ $(document).ready(function() {
   // check form
   function checkForm(form)
   {
-    ...
     if(!form.checkbox_1.checked) {
       alert("Please acknowledge that your information may be shared with InVision");
       form.checkbox_1.focus();
