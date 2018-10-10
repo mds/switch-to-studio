@@ -1,15 +1,25 @@
 header
-  text-align: right
-  padding: 2rem 0
-  margin-right: 10px
-  position: absolute
-  right: 0
+  text-align: left
+  padding: 1.5rem 0 0
+  margin-left: 10px
+  position: relative
+  left: 0
+
+  +small
+    text-align: right
+    padding: 2rem 0
+    margin-right: 10px
+    position: absolute
+    right: 0
 
   ul
     display: grid
     grid-template-columns: auto auto auto
     align-items: center
-    justify-content: end
+    justify-content: start
+
+    +small
+      justify-content: end
 
   li
     display: inline

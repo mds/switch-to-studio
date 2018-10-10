@@ -79,7 +79,7 @@ $(document).ready(function() {
   var sprint_3_4_title =  "3.4 – Ways to refactor and enhance your animations";
   var sprint_3_5_title =  "3.5 – Duplicating and repurposing animations";
 
-  var sprint_4_1_title =  "4.1 – LISTS – the secret sauce for new design projects";
+  var sprint_4_1_title =  "4.1 – The secret sauce for new design projects";
   var sprint_4_2_title =  "4.2 – Low-fidelity animation overview";
   var sprint_4_3_title =  "4.3 – Sketch to InVision Studio";
   var sprint_4_4_title =  "4.4 – Combining Tap and Timing interactions";

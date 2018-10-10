@@ -9,8 +9,11 @@ body
   font-size: 16px
   line-height: 1.75em
   color: $color-small-grey-text
-  padding: 0 2rem
+  padding: 0 10px
   +sans
+
+  +small
+    padding: 0 2rem
 
 ::-moz-selection
   background: rgba($color-primary, .1)
@@ -37,15 +40,16 @@ h1
   font-weight: 300
   letter-spacing: -.3rem
   text-transform: uppercase
+
   em
     color: $color-white
     strong
       color: $color-primary
 
   +small
-    font-size: 6rem
+    font-size: 5rem
 
-  +large
+  +medium
     font-size: 6rem
 
 p

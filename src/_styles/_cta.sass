@@ -59,9 +59,10 @@
   color: $color-white
   font-weight: 900
   display: block
-  width: 150px
-  height: 130px
-  margin-right: 10px
+  width: 75px
+  height: 65px
+  margin-top: 4rem
+  margin-left: 10px
   text-align: center
   text-decoration: none
   position: relative
@@ -70,16 +71,28 @@
   z-index: 100
   +easeall
 
+  +small
+    margin-right: 10px
+    width: 150px
+    height: 130px
+
   .arrow-right
     width: 0
     height: 0
-    border-top: 20px solid transparent
-    border-bottom: 20px solid transparent
-    border-left: 30px solid black
+    border-top: (12px) solid transparent
+    border-bottom: (12px) solid transparent
+    border-left: (20px) solid black
     position: absolute
-    left: 41%
-    top: 35%
+    left: 40%
+    top: 33%
     +easeall
+
+    +small
+      left: 41%
+      top: 35%
+      border-top: 20px solid transparent
+      border-bottom: 20px solid transparent
+      border-left: 30px solid black
 
     &.arrow-two
       transform: translate(-6rem, -3rem)

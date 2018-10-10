@@ -1,6 +1,13 @@
 .sprint
   margin-top: 4rem
 
+.grid-two-one.sprint
+  grid-template-columns: 1fr
+  +small
+    grid-template-columns: 1.5fr 1fr
+  +medium
+    grid-template-columns: 2fr 1fr
+
 .video-overlay
   display: none
   width: 100%
@@ -12,9 +19,12 @@
   background: rgba($color-small-grey-text, .5)
 
   .video-overlay-wrapper
-    width: 60%
+    width: 90%
     position: absolute
     +center
+
+    +small
+      width: 60%
 
 .dynamic-content
   display: none
@@ -87,6 +97,9 @@
     padding: 1rem
     +easeall
 
+    +medium
+      padding: 1rem
+
     h3
       font-size: 1rem
       line-height: 1.25em
@@ -118,8 +131,16 @@
     img
       padding: 0
       margin: 0
-      max-width: 13.75rem
+      display: block
+      max-width: 8rem
       +easeall
+
+      +small
+        display: none
+
+      +medium
+        max-width: 9rem
+        display: block
 
     &:before
       content: " "
@@ -128,7 +149,7 @@
       height: 100%
       position: absolute
       z-index: -10
-      background: $color-pink-tag-line
+      background: transparent
       top: 0
       left: 0
 
