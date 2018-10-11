@@ -43,9 +43,9 @@ $(document).ready(function() {
 
   var sprint_2_1_ID = "lY-rxXkstYc";
   var sprint_2_2_ID = "FRIC-NElvTE";
-  var sprint_2_3_ID = "m1jNnlagSTc";
-  var sprint_2_4_ID = "cUYSGojUuAU"; //needs to be uploaded by InVision (makin' bacon pancakes)
-  var sprint_2_5_ID = "4r7wHMg5Yjg"; //needs to be uploaded by InVision (honey badger)
+  var sprint_2_3_ID = "cUYSGojUuAU"; //needs to be uploaded by InVision (makin' bacon pancakes)
+  var sprint_2_4_ID = "4r7wHMg5Yjg"; //needs to be uploaded by InVision (honey badger)
+  var sprint_2_5_ID = "m1jNnlagSTc";
 
   var sprint_3_1_ID = "kEnYZCWT0GQ";
   var sprint_3_2_ID = "yxPeRqfQqGM";
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
   // sprint 1 lessons
   // ------------------------------------
-  if (dynamicContent == '1.1') {
+  if ((dynamicContent == '1') || (dynamicContent == '1.1')) {
     updateSprint(1);
     updateEmbedTitle(sprint_1_1_title);
     addNowPlaying(sprint_1_1_ID, 1);
@@ -116,7 +116,7 @@ $(document).ready(function() {
   }
   // sprint 2 lessons
   // ------------------------------------
-  else if (dynamicContent == '2.1') {
+  else if ((dynamicContent == '2') || (dynamicContent == '2.1')) {
     updateSprint(2);
     updateEmbedTitle(sprint_2_1_title);
     addNowPlaying(sprint_2_1_ID, 1);
@@ -143,7 +143,7 @@ $(document).ready(function() {
   }
   // sprint 3 lessons
   // ------------------------------------
-  else if (dynamicContent == '3.1') {
+  else if ((dynamicContent == '3') || (dynamicContent == '3.1')) {
     updateSprint(3);
     updateEmbedTitle(sprint_3_1_title);
     addNowPlaying(sprint_3_1_ID, 1);
@@ -170,7 +170,7 @@ $(document).ready(function() {
   }
   // sprint 4 lessons
   // ------------------------------------
-  else if (dynamicContent == '4.1') {
+  else if ((dynamicContent == '4') || (dynamicContent == '4.1')) {
     updateSprint(4);
     updateEmbedTitle(sprint_4_1_title);
     addNowPlaying(sprint_4_1_ID, 1);
