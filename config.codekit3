@@ -7,13 +7,29 @@
 		"uuidString": "550F27EC-B8AB-4955-BC5C-186DCBAEFF5B"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/build",
 		"oF": 0
+		},
+	"/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/index.html",
+		"oF": 0
+		},
+	"/index.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 2,
+		"oS": 0
 		},
 	"/readme.md": {
 		"cB": 0,
@@ -429,6 +445,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/_styles/_directory.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_directory.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/_styles/_fonts.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -692,7 +721,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560889566.14165401
+	"lastBuiltDate": 560965619.61606896
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2972,7 +3001,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": "/build"
+	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
 }

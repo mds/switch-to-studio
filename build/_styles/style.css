@@ -135,6 +135,41 @@ p {
 .display-block {
   display: block !important; }
 
+.directory {
+  padding: 4rem; }
+  .directory h1 {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 0;
+    padding: 1.25rem 0; }
+  .directory li {
+    color: #343537;
+    padding: .5rem 0;
+    font-size: 1.25rem; }
+    .directory li:first-of-type {
+      list-style-type: none;
+      margin: 0; }
+  .directory a {
+    color: #ff3366;
+    display: inline-block; }
+    .directory a:after {
+      content: " ";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background: #ff3366;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transition: all .2s ease-out; }
+    .directory a:hover:after {
+      width: 5px;
+      height: 5px;
+      transform: translateX(5px);
+      animation: blink .5s infinite;
+      transition: all 0.1s ease-out; }
+
 main {
   max-width: 40rem;
   margin: auto;
@@ -281,7 +316,8 @@ main {
 @keyframes blink {
   0% {
     opacity: 1; }
-  50% { }
+  50% {
+    opacity: 0; }
   100% {
     opacity: 1; } }
 
