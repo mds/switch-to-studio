@@ -1,12 +1,34 @@
 .sprint
   margin-top: 4rem
 
-.grid-two-one.sprint
+.main--interior .grid-two-one,
+.grid-two-one.interior
   grid-template-columns: 1fr
+  grid-column-gap: 10px
   +small
     grid-template-columns: 1.5fr 1fr
   +medium
     grid-template-columns: 2fr 1fr
+
+.main--interior .grid-lines
+  grid-template-columns: 1fr
+  +small
+    grid-template-columns: .489fr 1fr 1fr
+
+    > div:nth-child(1)
+        box-shadow: inset 1px 0 0 0 $color-grid-lines, inset 0 0 0 0 $color-grid-lines // removes the visibility of the grid line
+    > div:nth-child(2)
+        box-shadow: inset 0 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines // removes the visibility of the grid line
+
+  +medium
+    grid-template-columns: 1fr 1fr 1fr
+
+// padding for top of video sprint page
+.main--interior .grid-two-one.sprint
+  margin-top: 1rem
+
+  +medium
+    margin-top: 3rem
 
 .video-overlay
   display: none
@@ -52,10 +74,18 @@
     align-items: top
     grid-gap: 4rem
 
+    +small
+      padding: 3rem 0 2rem
+
   h2
     font-size: 1.5rem
     color: $color-white
     font-weight: 400
+    line-height: 1.125em
+    max-width: 40rem
+
+    +medium
+      font-size: 2rem
 
   a
     margin-top: 2rem
@@ -68,9 +98,13 @@
       left: -.5rem
 
   p
+    font-size: 1rem
     padding: 2rem 0
     line-height: 1.35em
-    max-width: 40rem
+    max-width: 38rem
+
+    +medium
+      font-size: 1.25rem
 
   .instructor
     grid-template-columns: auto 1fr
@@ -82,7 +116,7 @@
       background: $color-main-dark-panel-bg-hover
       padding: 1px
     h5
-      font-size: .75rem
+      font-size: .875rem
 
 
 .video-playlist
@@ -105,9 +139,6 @@
       line-height: 1.25em
       font-weight: 300
       margin-right: 10px
-
-      // em
-      //   font-weight: 300
 
     &:hover
       background: $color-main-dark-panel-bg-hover

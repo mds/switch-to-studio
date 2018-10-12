@@ -34,6 +34,9 @@ main
   +small
     grid-template-columns: 2fr 1fr
 
+  +medium
+    grid-template-columns: 2fr 1fr
+
 .grid-three
   display: grid
   grid-column-gap: 10px
@@ -66,7 +69,7 @@ main
     box-shadow: inset 1px 0 0 0 $color-grid-lines, inset -1px 0 0 0 $color-grid-lines
 
 .head-container
-  padding: 2rem 0
+  padding: 2rem 0 !important
   align-items: center
 
   h1
@@ -74,6 +77,10 @@ main
     margin-left: 10px
 
     +small
+      margin-left: 0
+      max-width: 28rem
+
+    +medium
       margin-left: 0
       max-width: 44rem
 
@@ -100,8 +107,28 @@ main
 
 .instruction-tag-group--video
   grid-template-columns: 1fr 1fr auto !important
-  // p
-  //   margin-right: 10px
+  align-items: center !important
+
+  +small
+    grid-template-columns: 1fr 1fr auto !important
+    align-items: center !important
+
+  .instruction-tag--line,
+  .instruction-tag.instruction-tag--right
+    margin-top: .875rem
+    display: block
+    margin-left: -3.5rem !important
+
+    +xsmall
+      display: none
+
+    +small
+      margin-left: 0
+      display: block
+      // margin-top: 2rem
+
+    +medium
+      margin-top: 3.5rem
 
 .instruction-tag-group
   display: grid
@@ -111,7 +138,7 @@ main
   grid-gap: 0
 
 .instruction-tag
-  display: none // hide on mobile
+
   +small
     display: block
   p
@@ -137,10 +164,6 @@ main
   margin: 0
   padding: 0
   background: $color-pink-tag-line
-
-  display: none // hide on mobile
-  +small
-    display: block
 
 .instruction-tag--line-vertical
   width: 1px !important

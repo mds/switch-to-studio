@@ -309,6 +309,15 @@
 		"oF": 1,
 		"oS": 0
 		},
+	"/src/_includes/get-notified.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/get-notified.html",
+		"oF": 1,
+		"oS": 0
+		},
 	"/src/_includes/header.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -324,15 +333,6 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "/build/_includes/layout.html",
-		"oF": 1,
-		"oS": 0
-		},
-	"/src/_includes/notified.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/build/_includes/notified.html",
 		"oF": 1,
 		"oS": 0
 		},
@@ -721,7 +721,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560971941.03997099
+	"lastBuiltDate": 560984538.40600204
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3001,7 +3001,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$,exports,require",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "/build"
 	},
 "settingsFileVersion": "3"
 }

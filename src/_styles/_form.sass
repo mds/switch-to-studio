@@ -1,9 +1,13 @@
 form
-  margin-right: 10px
+  margin: 3rem 10px 0 10px
+
+  +small
+    margin: 0 10px 0 0
 
 .form-label
   background: $color-main-dark-panel-bg-hover
   margin-bottom: 10px
+  // margin-left: -1px
 
   .inp
     position: relative
@@ -13,7 +17,7 @@ form
     .label
       position: absolute
       top: -.5rem
-      left: 1.5rem
+      left: 1rem
       font-size: .875rem
       color: $color-small-grey-text
       font-weight: 600
@@ -21,6 +25,9 @@ form
       cursor: text
       pointer-events: none
       +easeall
+
+      +small
+        left: 1.5rem
 
     input
       -webkit-appearance: none
@@ -30,7 +37,7 @@ form
       border: 0
       top: 0
       padding-top: .75rem
-      text-indent: 1.5rem
+      text-indent: 1rem
       height: 4.25rem
       background: none
       border-radius: 0
@@ -39,6 +46,9 @@ form
       text-align: left
       font-size: 1rem
       +easeall
+
+      +small
+        text-indent: 1.5rem
 
       &:not(:placeholder-shown)
         top: .25rem
@@ -114,8 +124,12 @@ input:-webkit-autofill:focus
 
   span
     position: relative
-    padding-left: 3.5rem
+    padding-left: 2.5rem
     user-select: none
+    display: block
+
+    +small
+      padding-left: 3.5rem
 
 .form-helper
   line-height: 1.5em
@@ -131,7 +145,6 @@ input:-webkit-autofill:focus
 // checkbox
 .form-checkbox
   position: relative
-  // background: $color-main-dark-panel-bg
   cursor: default
 
   input[type="checkbox"]
@@ -155,9 +168,12 @@ input:-webkit-autofill:focus
   position: absolute
   top: 0px
   left: 0px
-  margin-left: 1.5rem
+  margin-left: 1rem
   content: ""
   display: inline-block // Needed for the line-height to take effect
+
+  +small
+    margin-left: 1.5rem
 
 // Outer box of the fake checkbox
 .form-checkbox label::before
@@ -195,3 +211,11 @@ input:-webkit-autofill:focus
 // Adding focus styles on the outer-box of the fake checkbox
 .form-checkbox input[type="checkbox"]:focus + label::before
   // outline: rgba($color-primary, .25) auto 1px
+
+.main--form
+  .instruction-tag,
+  .instruction-tag--line
+    display: none
+
+    +small
+      display: block
