@@ -47,7 +47,7 @@
     grid-column-start: 2
 
   a
-    font-size: 1.25rem
+    font-size: 1.5rem
     font-weight: 400
     text-decoration: none
     color: $color-white
@@ -61,7 +61,7 @@
       padding: 2.5rem
       min-height: 29rem
 
-    +small
+    +medium
       font-size: 2rem
 
     &:before
@@ -119,15 +119,26 @@
 .sprint-grid.sprint-grid--download
   padding-bottom: 6rem
   a
-    height: 34rem
+    height: 20rem
     position: relative
+
+    +medium
+      height: 34rem
 
     img
       width: 24px
       position: absolute
       top: 1.5rem
-      right: 2.75rem
+      right: 1.5rem
       z-index: 100
+
+      +xsmall
+        top: 2.5rem
+        right: 2.5rem
+
+      +small
+        top: 1.5rem
+        right: 2.75rem
 
     &:hover .download-wrapper
       &:after
@@ -135,7 +146,7 @@
         transform: scale(.9)
         +easeall
       &:before
-        background: $color-main-dark-panel-bg
+        background: $color-main-dark-panel-bg-hover
         +easeall
 
       h4

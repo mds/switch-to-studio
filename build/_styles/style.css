@@ -152,23 +152,39 @@ p {
       margin: 0; }
   .directory a {
     color: #ff3366;
-    display: inline-block; }
+    text-decoration: none;
+    position: relative;
+    padding: 2px 2px;
+    transition: all .2s ease-out; }
     .directory a:after {
       content: " ";
-      display: block;
       width: 100%;
       height: 1px;
       background: #ff3366;
       position: absolute;
-      bottom: 0;
       right: 0;
+      bottom: 0;
       transition: all .2s ease-out; }
-    .directory a:hover:after {
-      width: 5px;
-      height: 5px;
-      transform: translateX(5px);
-      animation: blink .5s infinite;
-      transition: all 0.1s ease-out; }
+    .directory a:before {
+      content: " ";
+      width: 4px;
+      height: 4px;
+      background: #ff3366;
+      position: absolute;
+      right: -4px;
+      bottom: 0;
+      opacity: 0; }
+    .directory a:hover {
+      background: rgba(255, 51, 102, 0.2);
+      transition: all .1s ease-out;
+      padding: 2px 8px; }
+      .directory a:hover:after {
+        width: 0px;
+        transition: all .1s ease-out; }
+      .directory a:hover:before {
+        opacity: 1;
+        animation: blink .4s infinite .1s;
+        transition: all .1s ease-out; }
 
 main {
   max-width: 40rem;
@@ -263,10 +279,10 @@ main {
       .head-container h1 a:hover {
         transform: translateX(0);
         transition: all .2s ease-out; }
-  .head-container .cta-primary {
+  .main--sprint .head-container .cta-primary {
     display: none; }
     @media (min-width: 767px) {
-      .head-container .cta-primary {
+      .main--sprint .head-container .cta-primary {
         display: block; } }
 
 .head-container.head-container--top {
@@ -546,6 +562,14 @@ header {
     animation: blink .5s infinite;
     transition: all .2s ease-out; }
 
+.cta-email {
+  margin-top: 4rem;
+  margin-left: 10px; }
+  @media (min-width: 767px) {
+    .cta-email {
+      margin-top: 0;
+      margin-left: 0; } }
+
 .sprint-grid {
   grid-gap: 10px;
   align-items: center;
@@ -590,7 +614,7 @@ header {
   .sprint-grid a:first-child {
     grid-column-start: 2; }
   .sprint-grid a {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 400;
     text-decoration: none;
     color: #ffffff;
@@ -603,7 +627,7 @@ header {
         font-size: 1.5rem;
         padding: 2.5rem;
         min-height: 29rem; } }
-    @media (min-width: 767px) {
+    @media (min-width: 1279px) {
       .sprint-grid a {
         font-size: 2rem; } }
     .sprint-grid a:before {
@@ -654,20 +678,31 @@ header {
 .sprint-grid.sprint-grid--download {
   padding-bottom: 6rem; }
   .sprint-grid.sprint-grid--download a {
-    height: 34rem;
+    height: 20rem;
     position: relative; }
+    @media (min-width: 1279px) {
+      .sprint-grid.sprint-grid--download a {
+        height: 34rem; } }
     .sprint-grid.sprint-grid--download a img {
       width: 24px;
       position: absolute;
       top: 1.5rem;
-      right: 2.75rem;
+      right: 1.5rem;
       z-index: 100; }
+      @media (min-width: 500px) {
+        .sprint-grid.sprint-grid--download a img {
+          top: 2.5rem;
+          right: 2.5rem; } }
+      @media (min-width: 767px) {
+        .sprint-grid.sprint-grid--download a img {
+          top: 1.5rem;
+          right: 2.75rem; } }
     .sprint-grid.sprint-grid--download a:hover .download-wrapper:after {
       background: #787b82;
       transform: scale(0.9);
       transition: all .2s ease-out; }
     .sprint-grid.sprint-grid--download a:hover .download-wrapper:before {
-      background: #0d0d0d;
+      background: #151516;
       transition: all .2s ease-out; }
     .sprint-grid.sprint-grid--download a:hover .download-wrapper h4 {
       color: #ff3366;
@@ -1175,6 +1210,8 @@ input:-webkit-autofill:focus {
   text-transform: uppercase;
   font-size: .75rem;
   font-weight: 400; }
+  .footer .grid-two {
+    grid-template-columns: 1fr 1fr; }
   .footer em {
     font-weight: 900; }
   .footer p a {
@@ -1190,7 +1227,10 @@ input:-webkit-autofill:focus {
   .footer .social {
     text-align: right; }
     .footer .social li {
-      display: inline; }
+      display: block; }
+      @media (min-width: 500px) {
+        .footer .social li {
+          display: inline; } }
       .footer .social li a img {
         max-width: 40px;
         transition: all .2s ease-out; }
@@ -1200,8 +1240,13 @@ input:-webkit-autofill:focus {
         transform: scale(1.2);
         transition: all .2s ease-out; }
   .footer .footer-text.grid-two-one {
-    grid-template-columns: 1fr auto;
-    padding: 4rem 10px; }
+    grid-template-columns: 1fr;
+    padding: 4rem 10px;
+    line-height: 1.25em;
+    grid-gap: 5rem; }
+    @media (min-width: 500px) {
+      .footer .footer-text.grid-two-one {
+        grid-template-columns: 1fr auto; } }
     .footer .footer-text.grid-two-one a {
       text-align: right;
       padding: 0; }

@@ -5,6 +5,8 @@
   font-size: .75rem
   font-weight: 400
 
+  .grid-two
+    grid-template-columns: 1fr 1fr
   em
     font-weight: 900
 
@@ -25,7 +27,9 @@
     text-align: right
 
     li
-      display: inline
+      display: block
+      +xsmall
+        display: inline
       a
         img
           max-width: 40px
@@ -40,8 +44,12 @@
             +easeall
 
   .footer-text.grid-two-one
-    grid-template-columns: 1fr auto
+    grid-template-columns: 1fr
     padding: 4rem 10px
+    line-height: 1.25em
+    grid-gap: 5rem
+    +xsmall
+      grid-template-columns: 1fr auto
     a
       text-align: right
       padding: 0
