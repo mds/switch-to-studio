@@ -87,31 +87,31 @@ $(document).ready(function() {
   var sprint_4_6_title = "4.6 – Creating subtle and refined animations";
   var sprint_4_7_title = "4.7 – Nail the tiny details of your animated prototype";
 
-  var sprint_1_1_desc = "In this video, we'll take a look at ways to get started fast by using simple shapes to create a fun, interactive prototype with different types of animations. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the prototype.</a>";
-  var sprint_1_2_desc = "this is the second video.";
-  var sprint_1_3_desc = "this is the third video.";
-  var sprint_1_4_desc = "my the fourth be with you.";
-  var sprint_1_5_desc = "cinco de video";
+  var sprint_1_1_desc = "Welcome to Switch to Studio series! Let's take a look at the first prototype we'll design and build together in this first sprint. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_2_desc = "Learn the fastest possible way to animate objects between artboards. Take a look at the different types easing functions built into InVision Studio. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_3_desc = "We'll build out the prototype's core functionality by using existing interactions and building on top of them. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_4_desc = "Here we'll extend the interactivity of the app by adding swiping functions directly onto artboards. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_5_desc = "Let's wrap up this prototype by adding some polished, time-based animations for really fluid transitions. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
 
-  var sprint_2_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_2_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_2_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_2_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_2_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_2_1_desc = "Let's walkthrough the iOS running app concept we'll design and talk about things to keep in mind when starting off your design projects. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_2_desc = "Here we'll design some of the initial global elements like the title bar and the nav bar. We'll also go over how to design a few icons with the basic shapes and the pen tool. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_3_desc = "In this video we'll design the card-based interface for the home screen. We'll go over implied grids and typographic choices. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_4_desc = "Here we'll design the interior detail screen by reusing some of the elements from the home screen. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_5_desc = "You made it to the last video of this sprint! Now we're going to reuse the interior detail screen for a color theme variation of the final screens. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
 
-  var sprint_3_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_3_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_3_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_3_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
-  var sprint_3_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_3_1_desc = "Let's walkthough all of the little animations that are happening inside of this prototype. This is a first look at everything we'll animate in this series. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_2_desc = "Here we'll create our very first animation with our running app. We'll also explore animating masked elements for some special effects. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_3_desc = "It's easy to link every animation to happen at once, but the magic comes when we start to offset the timing and really dig into the details. Let's dive in. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_4_desc = "There are no rules about going back and refactoring what you've already done. Sometimes you don't really know what's best until you've gotten started. In this video we'll change some of our existing work and add an additional animation in the interior screens. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_5_desc = "In this final video, we'll go over what to watch out for when duplicating animations. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
 
-  var sprint_4_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_6_desc = "six. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
-  var sprint_4_7_desc = "seven. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_1_desc = "The secret sauce isn't very secret. It's simply making a list, but there are some very important things to keep in mind. You can grab this list and the design files below. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_2_desc = "This is a quick walkthrough of the design and animation we'll make over the next few videos. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_3_desc = "There are lots of ways to get started with designs, but in this video we'll focus on quick, low-fidelity designs. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_4_desc = "Let's take a look at linking multiple animation triggers for a rich interactive prototype. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_5_desc = "Here, we'll animate a faux user input and design the search results list. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_6_desc = "Alrighty, now we're animating a fake load screen to happen right before our search results come in. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_7_desc = "Last video of this series!! What subtle details an we add to really take our projects to the next level? Here, we're going to add in an often overlooked interaction. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
 
   // sprint 1 lessons
   // ------------------------------------
