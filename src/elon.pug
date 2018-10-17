@@ -1,0 +1,76 @@
+//- 01 index.pug
+extends _includes/layout.pug
+
+block head
+  title Switch to Studio by MDS
+
+  block stylesandscripts
+    link(rel="stylesheet" type="text/css" href="/_styles/style.css")
+    link(id="favicon" rel="shortcut icon" href="/favicon.ico")
+
+//- block meta pulls in here
+
+block content
+
+  .video-overlay
+    .video-overlay-wrapper
+      .video-wrap
+        iframe(width="560", height="315", src="https://www.youtube.com/embed/aXsizGMW85w?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="")
+
+  main.main--index
+    .grid-three.grid-lines
+      .grid-column-one
+      .grid-column-two
+      .grid-column-three
+
+    .main-wrapper
+      block header
+        include _includes/header.pug
+
+      .grid-two-one.head-container
+        div
+          h1 Learn Efficient Design &amp; Prototyping Workflows With <em>InVision Studio<strong>.</strong></em>
+        div
+          div.instruction-tag-group.instruction-tag-group--video
+            a.cta-video(href="https://youtu.be/aXsizGMW85w")
+              .arrow-right.arrow-one
+              .arrow-right.arrow-two
+              span Watch Trailer
+            .instruction-tag--line
+            .instruction-tag.instruction-tag--right
+              p Watch the Trailer
+
+      .grid-three.sprint-grid
+        .instruction-tag-group
+          .instruction-tag
+            p Start the Course
+          .instruction-tag--line
+        a(href="sprint?s=1.1") 01<em>.</em>
+            img(src="/_assets/img/sprint-1-illustration.png" alt="app screen illustrations")
+            h2 Get started fast with InVision Studio
+            h4 5 Videos
+        a(href="sprint?s=2.1") 02<em>.</em>
+          img(src="/_assets/img/sprint-2-illustration.png" alt="app screen illustrations")
+          h2 Interface design for a conceptual iOS app
+          h4 5 Videos
+        a(href="sprint?s=3.1") 03<em>.</em>
+          img(src="/_assets/img/sprint-3-illustration.png" alt="app screen illustrations")
+          h2 Custom iOS app screen transitions
+          h4 5 Videos
+        a(href="sprint?s=4.1") 04<em>.</em>
+          img(src="/_assets/img/sprint-4-illustration.png" alt="app screen illustrations")
+          h2 Exploring animations in low fidelity
+          h4 7 Videos
+
+      block notified
+        include _includes/get-notified.pug
+
+    block foot
+      include _includes/foot.pug
+
+  block scripts
+    script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")
+    script(src='/_scripts/index.js')
+
+
+

@@ -87,31 +87,31 @@ $(document).ready(function() {
   var sprint_4_6_title = "4.6 – Creating subtle and refined animations";
   var sprint_4_7_title = "4.7 – Nail the tiny details of your animated prototype";
 
-  var sprint_1_1_desc = "Welcome to Switch to Studio series! Let's take a look at the first prototype we'll design and build together in this first sprint. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
-  var sprint_1_2_desc = "Learn the fastest possible way to animate objects between artboards. Take a look at the different types easing functions built into InVision Studio. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
-  var sprint_1_3_desc = "We'll build out the prototype's core functionality by using existing interactions and building on top of them. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
-  var sprint_1_4_desc = "Here we'll extend the interactivity of the app by adding swiping functions directly onto artboards. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
-  var sprint_1_5_desc = "Let's wrap up this prototype by adding some polished, time-based animations for really fluid transitions. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_1_desc = "In this video, we'll take a look at ways to get started fast by using simple shapes to create a fun, interactive prototype with different types of animations. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the prototype.</a>";
+  var sprint_1_2_desc = "this is the second video.";
+  var sprint_1_3_desc = "this is the third video.";
+  var sprint_1_4_desc = "my the fourth be with you.";
+  var sprint_1_5_desc = "cinco de video";
 
-  var sprint_2_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_2_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_2_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_2_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_2_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_2_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_2_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_2_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_2_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
 
-  var sprint_3_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_3_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_3_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_3_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
-  var sprint_3_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_3_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_3_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_3_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
+  var sprint_3_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the prototype</a>";
 
-  var sprint_4_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_6_desc = "six. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
-  var sprint_4_7_desc = "seven. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_6_desc = "six. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
+  var sprint_4_7_desc = "seven. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the prototype</a>";
 
   // sprint 1 lessons
   // ------------------------------------
@@ -256,14 +256,14 @@ $(document).ready(function() {
 
   // if no URL paramenters exist revert to the first sprint and first lesson
   else {
-    // will doing nothing work?
-
-    // $(".sprint--one").show();
-    // updateSprint(1);
-    // updateEmbedTitle(sprint_1_1_title);
-    // updateNowPlaying(sprint_1_1_ID, 1);
-    // updateDesc(sprint_1_1_desc);
+    $(".sprint--one").show();
+    updateSprint(1);
+    updateEmbedTitle(sprint_1_1_title);
+    updateNowPlaying(sprint_1_1_ID, 1);
+    updateDesc(sprint_1_1_desc);
   }
+
+
 
   // updates video title on video embed
   function updateEmbedTitle(vidTitle){
@@ -272,24 +272,19 @@ $(document).ready(function() {
 
   // updates visibility of sprint group and updates <h1> page title
   function updateSprint(sprintNum) {
-
     if (sprintNum == '1') {
-      document.title = 'Studio Sprint 01 – Switch to Studio';
       $(".sprint--one").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
     }
     else if (sprintNum == '2') {
-      document.title = 'Studio Sprint 02 – Switch to Studio';
       $(".sprint--two").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
     }
     else if (sprintNum == '3') {
-      document.title = 'Studio Sprint 03 – Switch to Studio';
       $(".sprint--three").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
     }
     else if (sprintNum == '4') {
-      document.title = 'Studio Sprint 04 – Switch to Studio';
       $(".sprint--four").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
     }

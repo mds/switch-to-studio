@@ -275,6 +275,15 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/src/_includes/back.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/back.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/foot.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -655,21 +664,21 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/default.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/build/default.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"/src/download/index.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
 		"oAP": "/build/download/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/elon.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/elon.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -745,7 +754,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 561412577.45730102
+	"lastBuiltDate": 561487704.76198006
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2151,7 +2160,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
