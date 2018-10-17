@@ -15,22 +15,6 @@
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/build/index.html",
-		"oF": 0
-		},
-	"/index.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 2,
-		"oS": 0
-		},
 	"/readme.md": {
 		"cB": 0,
 		"cS": 0,
@@ -39,9 +23,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/build/readme.html",
-		"oF": 0,
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -345,6 +329,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/_includes/sprintvars-new.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/_includes/sprintvars-new.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/_includes/sprintvars.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -493,6 +486,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/_styles/_form.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/_styles/_gatekeeper.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/build/_styles/_gatekeeper.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -649,6 +655,15 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/src/default.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/default.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/src/download/index.pug": {
 		"cB": 0,
 		"cOD": 1,
@@ -709,6 +724,15 @@
 		"oAP": "/build/sprint/index.html",
 		"oF": 1,
 		"oS": 0
+		},
+	"/src/testing/directory.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "/build/testing/directory.html",
+		"oF": 1,
+		"oS": 0
 		}
 	},
 "hooks": [
@@ -721,7 +745,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/src/_assets/img/favicon.png",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 560984538.40600204
+	"lastBuiltDate": 561412577.45730102
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2127,7 +2151,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://localhost:8888",
-	"gitIgnoreBuildFolder": 0,
+	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {

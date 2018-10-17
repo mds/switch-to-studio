@@ -61,155 +61,208 @@ $(document).ready(function() {
   var sprint_4_6_ID = "1SOaobzx-eg";
   var sprint_4_7_ID = "Kv6nVk8zG_s";
 
-  var sprint_1_1_title =  "1.1 – Prototype walkthrough";
-  var sprint_1_2_title =  "1.2 – Simple UI animation";
-  var sprint_1_3_title =  "1.3 – Duplicating and modifying interactions";
-  var sprint_1_4_title =  "1.4 – Exploring Swipe interactions ";
-  var sprint_1_5_title =  "1.5 – Advanced time-based animations ";
+  var sprint_1_1_title = "1.1 – Prototype walkthrough";
+  var sprint_1_2_title = "1.2 – Simple UI animation";
+  var sprint_1_3_title = "1.3 – Duplicating and modifying interactions";
+  var sprint_1_4_title = "1.4 – Exploring Swipe interactions ";
+  var sprint_1_5_title = "1.5 – Advanced time-based animations ";
 
-  var sprint_2_1_title =  "2.1 – Keep these things in mind before you design an app";
-  var sprint_2_2_title =  "2.2 – Design an iOS tab bar";
-  var sprint_2_3_title =  "2.3 – Card-based UI design";
-  var sprint_2_4_title =  "2.4 – Interior detail screen design";
-  var sprint_2_5_title =  "2.5 – Using existing components for additional screens";
+  var sprint_2_1_title = "2.1 – Keep these things in mind before you design an app";
+  var sprint_2_2_title = "2.2 – Design an iOS tab bar";
+  var sprint_2_3_title = "2.3 – Card-based UI design";
+  var sprint_2_4_title = "2.4 – Interior detail screen design";
+  var sprint_2_5_title = "2.5 – Using existing components for additional screens";
 
-  var sprint_3_1_title =  "3.1 – Detailed inspection of app animations";
-  var sprint_3_2_title =  "3.2 – Level up your animations using Masks";
-  var sprint_3_3_title =  "3.3 – Layer your animations for rich interactions";
-  var sprint_3_4_title =  "3.4 – Ways to refactor and enhance your animations";
-  var sprint_3_5_title =  "3.5 – Duplicating and repurposing animations";
+  var sprint_3_1_title = "3.1 – Detailed inspection of app animations";
+  var sprint_3_2_title = "3.2 – Level up your animations using Masks";
+  var sprint_3_3_title = "3.3 – Layer your animations for rich interactions";
+  var sprint_3_4_title = "3.4 – Ways to refactor and enhance your animations";
+  var sprint_3_5_title = "3.5 – Duplicating and repurposing animations";
 
-  var sprint_4_1_title =  "4.1 – The secret sauce for new design projects";
-  var sprint_4_2_title =  "4.2 – Low-fidelity animation overview";
-  var sprint_4_3_title =  "4.3 – Sketch to InVision Studio";
-  var sprint_4_4_title =  "4.4 – Combining Tap and Timing interactions";
-  var sprint_4_5_title =  "4.5 – Animating User Input";
-  var sprint_4_6_title =  "4.6 – Creating subtle and refined animations";
-  var sprint_4_7_title =  "4.7 – Nail the tiny details of your animated prototype";
+  var sprint_4_1_title = "4.1 – The secret sauce for new design projects";
+  var sprint_4_2_title = "4.2 – Low-fidelity animation overview";
+  var sprint_4_3_title = "4.3 – Sketch to InVision Studio";
+  var sprint_4_4_title = "4.4 – Combining Tap and Timing interactions";
+  var sprint_4_5_title = "4.5 – Animating User Input";
+  var sprint_4_6_title = "4.6 – Creating subtle and refined animations";
+  var sprint_4_7_title = "4.7 – Nail the tiny details of your animated prototype";
+
+  var sprint_1_1_desc = "Welcome to Switch to Studio series! Let's take a look at the first prototype we'll design and build together in this first sprint. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_2_desc = "Learn the fastest possible way to animate objects between artboards. Take a look at the different types easing functions built into InVision Studio. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_3_desc = "We'll build out the prototype's core functionality by using existing interactions and building on top of them. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_4_desc = "Here we'll extend the interactivity of the app by adding swiping functions directly onto artboards. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+  var sprint_1_5_desc = "Let's wrap up this prototype by adding some polished, time-based animations for really fluid transitions. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
+
+  var sprint_2_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+
+  var sprint_3_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_3_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+
+  var sprint_4_1_desc = "first. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_2_desc = "this is the second video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_3_desc = "this is the third video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_4_desc = "my the fourth be with you. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_5_desc = "cinco de video. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_6_desc = "six. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
+  var sprint_4_7_desc = "seven. <a href='https://projects.invisionapp.com/prototype/cjkd22m98002tls01901h557e/play'>View the live prototype.</a>";
 
   // sprint 1 lessons
   // ------------------------------------
   if ((dynamicContent == '1') || (dynamicContent == '1.1')) {
     updateSprint(1);
     updateEmbedTitle(sprint_1_1_title);
-    addNowPlaying(sprint_1_1_ID, 1);
+    updateNowPlaying(sprint_1_1_ID, 1);
+    updateDesc(sprint_1_1_desc);
   }
   else if (dynamicContent == '1.2') {
     updateSprint(1);
     updateEmbedTitle(sprint_1_2_title);
-    addNowPlaying(sprint_1_2_ID, 2);
+    updateNowPlaying(sprint_1_2_ID, 2);
+    updateDesc(sprint_1_2_desc);
   }
   else if (dynamicContent == '1.3') {
     updateSprint(1);
     updateEmbedTitle(sprint_1_3_title);
-    addNowPlaying(sprint_1_3_ID, 3);
+    updateNowPlaying(sprint_1_3_ID, 3);
+    updateDesc(sprint_1_3_desc);
   }
   else if (dynamicContent == '1.4') {
     updateSprint(1);
     updateEmbedTitle(sprint_1_4_title);
-    addNowPlaying(sprint_1_4_ID, 4);
+    updateNowPlaying(sprint_1_4_ID, 4);
+    updateDesc(sprint_1_4_desc);
   }
   else if (dynamicContent == '1.5') {
     updateSprint(1);
     updateEmbedTitle(sprint_1_5_title);
-    addNowPlaying(sprint_1_5_ID, 5);
+    updateNowPlaying(sprint_1_5_ID, 5);
+    updateDesc(sprint_1_5_desc);
   }
   // sprint 2 lessons
   // ------------------------------------
   else if ((dynamicContent == '2') || (dynamicContent == '2.1')) {
     updateSprint(2);
     updateEmbedTitle(sprint_2_1_title);
-    addNowPlaying(sprint_2_1_ID, 1);
+    updateNowPlaying(sprint_2_1_ID, 1);
+    updateDesc(sprint_2_1_desc);
   }
   else if (dynamicContent == '2.2') {
     updateSprint(2);
     updateEmbedTitle(sprint_2_2_title);
-    addNowPlaying(sprint_2_2_ID, 2);
+    updateNowPlaying(sprint_2_2_ID, 2);
+    updateDesc(sprint_2_2_desc);
   }
   else if (dynamicContent == '2.3') {
     updateSprint(2);
     updateEmbedTitle(sprint_2_3_title);
-    addNowPlaying(sprint_2_3_ID, 3);
+    updateNowPlaying(sprint_2_3_ID, 3);
+    updateDesc(sprint_2_3_desc);
   }
   else if (dynamicContent == '2.4') {
     updateSprint(2);
     updateEmbedTitle(sprint_2_4_title);
-    addNowPlaying(sprint_2_4_ID, 4);
+    updateNowPlaying(sprint_2_4_ID, 4);
+    updateDesc(sprint_2_4_desc);
   }
   else if (dynamicContent == '2.5') {
     updateSprint(2);
     updateEmbedTitle(sprint_2_5_title);
-    addNowPlaying(sprint_2_5_ID, 5);
+    updateNowPlaying(sprint_2_5_ID, 5);
+    updateDesc(sprint_2_5_desc);
   }
   // sprint 3 lessons
   // ------------------------------------
   else if ((dynamicContent == '3') || (dynamicContent == '3.1')) {
     updateSprint(3);
     updateEmbedTitle(sprint_3_1_title);
-    addNowPlaying(sprint_3_1_ID, 1);
+    updateNowPlaying(sprint_3_1_ID, 1);
+    updateDesc(sprint_3_1_desc);
   }
   else if (dynamicContent == '3.2') {
     updateSprint(3);
     updateEmbedTitle(sprint_3_2_title);
-    addNowPlaying(sprint_3_2_ID, 2);
+    updateNowPlaying(sprint_3_2_ID, 2);
+    updateDesc(sprint_3_2_desc);
   }
   else if (dynamicContent == '3.3') {
     updateSprint(3);
     updateEmbedTitle(sprint_3_3_title);
-    addNowPlaying(sprint_3_3_ID, 3);
+    updateNowPlaying(sprint_3_3_ID, 3);
+    updateDesc(sprint_3_3_desc);
   }
   else if (dynamicContent == '3.4') {
     updateSprint(3);
     updateEmbedTitle(sprint_3_4_title);
-    addNowPlaying(sprint_3_4_ID, 4);
+    updateNowPlaying(sprint_3_4_ID, 4);
+    updateDesc(sprint_3_4_desc);
   }
   else if (dynamicContent == '3.5') {
     updateSprint(3);
     updateEmbedTitle(sprint_3_5_title);
-    addNowPlaying(sprint_3_5_ID, 5);
+    updateNowPlaying(sprint_3_5_ID, 5);
+    updateDesc(sprint_3_5_desc);
   }
   // sprint 4 lessons
   // ------------------------------------
   else if ((dynamicContent == '4') || (dynamicContent == '4.1')) {
     updateSprint(4);
     updateEmbedTitle(sprint_4_1_title);
-    addNowPlaying(sprint_4_1_ID, 1);
+    updateNowPlaying(sprint_4_1_ID, 1);
+    updateDesc(sprint_4_1_desc);
   }
   else if (dynamicContent == '4.2') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_2_title);
-    addNowPlaying(sprint_4_2_ID, 2);
+    updateNowPlaying(sprint_4_2_ID, 2);
+    updateDesc(sprint_4_2_desc);
   }
   else if (dynamicContent == '4.3') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_3_title);
-    addNowPlaying(sprint_4_3_ID, 3);
+    updateNowPlaying(sprint_4_3_ID, 3);
+    updateDesc(sprint_4_3_desc);
   }
   else if (dynamicContent == '4.4') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_4_title);
-    addNowPlaying(sprint_4_4_ID, 4);
+    updateNowPlaying(sprint_4_4_ID, 4);
+    updateDesc(sprint_4_4_desc);
   }
   else if (dynamicContent == '4.5') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_5_title);
-    addNowPlaying(sprint_4_5_ID, 5);
+    updateNowPlaying(sprint_4_5_ID, 5);
+    updateDesc(sprint_4_5_desc);
   }
   else if (dynamicContent == '4.6') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_6_title);
-    addNowPlaying(sprint_4_6_ID, 6);
+    updateNowPlaying(sprint_4_6_ID, 6);
+    updateDesc(sprint_4_6_desc);
   }
   else if (dynamicContent == '4.7') {
     updateSprint(4);
     updateEmbedTitle(sprint_4_7_title);
-    addNowPlaying(sprint_4_7_ID, 7);
+    updateNowPlaying(sprint_4_7_ID, 7);
+    updateDesc(sprint_4_7_desc);
   }
 
-  // if no URL paramenters exist
+  // if no URL paramenters exist revert to the first sprint and first lesson
   else {
-    $(".sprint--one").show();
-    addNowPlaying(sprint_1_1_ID, 1);
+    // will doing nothing work?
+
+    // $(".sprint--one").show();
+    // updateSprint(1);
+    // updateEmbedTitle(sprint_1_1_title);
+    // updateNowPlaying(sprint_1_1_ID, 1);
+    // updateDesc(sprint_1_1_desc);
   }
 
   // updates video title on video embed
@@ -219,30 +272,40 @@ $(document).ready(function() {
 
   // updates visibility of sprint group and updates <h1> page title
   function updateSprint(sprintNum) {
+
     if (sprintNum == '1') {
+      document.title = 'Studio Sprint 01 – Switch to Studio';
       $(".sprint--one").show();
-      $(".head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
     }
     else if (sprintNum == '2') {
+      document.title = 'Studio Sprint 02 – Switch to Studio';
       $(".sprint--two").show();
-      $(".head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
     }
     else if (sprintNum == '3') {
+      document.title = 'Studio Sprint 03 – Switch to Studio';
       $(".sprint--three").show();
-      $(".head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
     }
     else if (sprintNum == '4') {
+      document.title = 'Studio Sprint 04 – Switch to Studio';
       $(".sprint--four").show();
-      $(".head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
     }
   }
 
   // updates the correct video to be loaded in iframe and have the now-playing feature in playlist
-  function addNowPlaying(lessonID, lessonNum) {
+  function updateNowPlaying(lessonID, lessonNum) {
     $(".video-playlist li a").removeClass("now-playing");
     $(".sprint .video-wrap").html('<iframe width="560", height="315", src="https://www.youtube.com/embed/'+lessonID+'?rel=0&controls=0?modestbranding=1&showinfo=0", frameborder="0", allow="autoplay; encrypted-media", allowfullscreen="" />');
     $(".video-playlist li:nth-child("+lessonNum+") a .vid-info h3").append("<p class='now-playing'>Now Viewing</p>");
     $(".video-playlist li:nth-child("+lessonNum+") a").addClass("now-playing");
+  }
+
+  // updates description of now playing
+  function updateDesc(lessonDesc) {
+    $(".sprint .video p").html(lessonDesc);
   }
 
   // check form

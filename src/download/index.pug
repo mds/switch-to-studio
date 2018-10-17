@@ -2,7 +2,7 @@
 extends ../_includes/layout.pug
 
 block head
-  title Studio Sprint
+  title Download the Files – Switch to Studio
 
 //- block meta pulls in here
 
@@ -17,12 +17,14 @@ block content
 
       .grid-two-one.head-container
         div
-          h1 <a href="/">&larr;</a> <em>Join the MDS List </em> &amp; get free access to the studio files.
+          h1 <a href="/">&larr;</a> <em>Join the MDS list </em> &amp; get instant access to the project files.
         div
           .instruction-tag.instruction-tag--center
             p Fill this out
           .instruction-tag--line.instruction-tag--line-vertical
           include ../_includes/form.pug
+            block cta
+              span Download the free files
 
     block foot
       include ../_includes/foot.pug
