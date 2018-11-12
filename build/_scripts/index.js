@@ -18,33 +18,50 @@ var dynamicContent = getParameterByName('s');
 // Do this after page is loaded and ready
 $(document).ready(function() {
 
-  // show/hide video overlay
-  $(".video-overlay").on('click', function() {
-    $(".video-overlay").fadeOut();
-  });
-
+  // start video
   $(".cta-video").on('click', function() {
-    $(".video-overlay").fadeIn();
+    startVideo();
     return false; // stops URL from loading
   });
 
+  // stop video
+  $(".video-overlay").on('click', function() {
+    stopVideo();
+  });
+
+  // stop video with escape key
   $(document).keyup(function(e) {
     if (e.keyCode === 27) {
-      $(".video-overlay").fadeOut();
+      stopVideo();
     }
   });
+
+  function startVideo() {
+    $(".video-overlay").fadeIn();
+    var videoURL = $('#trailer').prop('src');
+    videoURL += "&autoplay=1";
+    $('#trailer').prop('src',videoURL);
+  }
+
+  function stopVideo() {
+    $(".video-overlay").fadeOut();
+    var videoURL = $('#trailer').prop('src');
+    videoURL = videoURL.replace("&autoplay=1", "");
+    $('#trailer').prop('src','');
+    $('#trailer').prop('src',videoURL);
+  }
 
   // lesson variables
   var sprint_1_1_ID = "aXsizGMW85w";
   var sprint_1_2_ID = "yu1y9p-mxYM";
   var sprint_1_3_ID = "J-QV70gKNmI";
-  var sprint_1_4_ID = "QamUv4PdzQg";
+  var sprint_1_4_ID = "HDwxI_6L-yc";
   var sprint_1_5_ID = "VIK6L75tpAY";
 
   var sprint_2_1_ID = "lY-rxXkstYc";
   var sprint_2_2_ID = "FRIC-NElvTE";
-  var sprint_2_3_ID = "cUYSGojUuAU"; //needs to be uploaded by InVision (makin' bacon pancakes)
-  var sprint_2_4_ID = "4r7wHMg5Yjg"; //needs to be uploaded by InVision (honey badger)
+  var sprint_2_3_ID = "nYnqidO8hcc";
+  var sprint_2_4_ID = "CHtxVdFRV9s";
   var sprint_2_5_ID = "m1jNnlagSTc";
 
   var sprint_3_1_ID = "kEnYZCWT0GQ";
@@ -274,19 +291,19 @@ $(document).ready(function() {
   function updateSprint(sprintNum) {
     if (sprintNum == '1') {
       $(".sprint--one").show();
-      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
     }
     else if (sprintNum == '2') {
       $(".sprint--two").show();
-      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
     }
     else if (sprintNum == '3') {
       $(".sprint--three").show();
-      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
     }
     else if (sprintNum == '4') {
       $(".sprint--four").show();
-      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
     }
   }
 
