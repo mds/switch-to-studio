@@ -110,7 +110,7 @@ $(document).ready(function() {
   var sprint_1_4_desc = "Here we'll extend the interactivity of the app by adding swiping functions directly onto artboards. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
   var sprint_1_5_desc = "Let's wrap up this prototype by adding some polished, time-based animations for really fluid transitions. <a href='https://projects.invisionapp.com/prototype/Studio-Sprint-1-cjnao3oth007emj01gonbpewn/play/''>View the live prototype.</a>";
 
-  var sprint_2_1_desc = "Let's walkthrough the iOS running app concept we'll design and talk about things to keep in mind when starting off your design projects. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
+  var sprint_2_1_desc = "Let's walkthrough the iOS running app concept we'll design and talk about things to keep in mind when starting off your design projects. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a> Find the Google font used in the project <a href='https://fonts.google.com/specimen/Teko'>here.</a>";
   var sprint_2_2_desc = "Here we'll design some of the initial global elements like the title bar and the nav bar. We'll also go over how to design a few icons with the basic shapes and the pen tool. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
   var sprint_2_3_desc = "In this video we'll design the card-based interface for the home screen. We'll go over implied grids and typographic choices. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
   var sprint_2_4_desc = "Here we'll design the interior detail screen by reusing some of the elements from the home screen. <a href='https://projects.invisionapp.com/prototype/d86e4750-b6ea-49cf-50f5-694e0c63279c/play'>View the live prototype.</a>";
@@ -291,19 +291,19 @@ $(document).ready(function() {
   function updateSprint(sprintNum) {
     if (sprintNum == '1') {
       $(".sprint--one").show();
-      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
     }
     else if (sprintNum == '2') {
       $(".sprint--two").show();
-      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
     }
     else if (sprintNum == '3') {
       $(".sprint--three").show();
-      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
     }
     else if (sprintNum == '4') {
       $(".sprint--four").show();
-      $(".main--sprint .head-container h1").html('<a href="/elon">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
+      $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
     }
   }
 

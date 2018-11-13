@@ -673,15 +673,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/src/elon.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "/build/elon.html",
-		"oF": 0,
-		"oS": 0
-		},
 	"/src/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
@@ -713,6 +704,15 @@
 		"ft": 512,
 		"oA": 0,
 		"oAP": "/build/notified/index.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/src/password.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "/build/password.html",
 		"oF": 0,
 		"oS": 0
 		},
