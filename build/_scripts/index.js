@@ -55,7 +55,7 @@ $(document).ready(function() {
   var sprint_1_1_ID = "aXsizGMW85w";
   var sprint_1_2_ID = "yu1y9p-mxYM";
   var sprint_1_3_ID = "J-QV70gKNmI";
-  var sprint_1_4_ID = "HDwxI_6L-yc";
+  var sprint_1_4_ID = "OrQsszHSJBA";
   var sprint_1_5_ID = "VIK6L75tpAY";
 
   var sprint_2_1_ID = "lY-rxXkstYc";
@@ -290,18 +290,22 @@ $(document).ready(function() {
   // updates visibility of sprint group and updates <h1> page title
   function updateSprint(sprintNum) {
     if (sprintNum == '1') {
+      document.title = 'Studio Sprint 01 – Switch to Studio';
       $(".sprint--one").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>01 – </em> Get Started Fast with InVision Studio');
     }
     else if (sprintNum == '2') {
+      document.title = 'Studio Sprint 02 – Switch to Studio';
       $(".sprint--two").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>02 – </em> Designing an iOS app with InVision Studio');
     }
     else if (sprintNum == '3') {
+      document.title = 'Studio Sprint 03 – Switch to Studio';
       $(".sprint--three").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>03 – </em> Animating an iOS app with InVision Studio');
     }
     else if (sprintNum == '4') {
+      document.title = 'Studio Sprint 04 – Switch to Studio';
       $(".sprint--four").show();
       $(".main--sprint .head-container h1").html('<a href="/">&larr;</a> <em>04 – </em> Low Fidelity Prototyping with InVision Studio');
     }
