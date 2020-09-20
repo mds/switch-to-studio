@@ -66,7 +66,7 @@ $(document).ready(function() {
 
   var sprint_3_1_ID = "kEnYZCWT0GQ";
   var sprint_3_2_ID = "yxPeRqfQqGM";
-  var sprint_3_3_ID = "O_eiE0YkIkk";
+  var sprint_3_3_ID = "rORSSVs9De4";
   var sprint_3_4_ID = "aC8-tqEa0bs";
   var sprint_3_5_ID = "U4JZjjOle5E";
 
@@ -275,6 +275,7 @@ $(document).ready(function() {
   else {
     $(".sprint--one").show();
     updateSprint(1);
+    document.title = 'Switch to Studio by MDS';
     updateEmbedTitle(sprint_1_1_title);
     updateNowPlaying(sprint_1_1_ID, 1);
     updateDesc(sprint_1_1_desc);
